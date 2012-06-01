@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 01 Jun 2012 07:04:47 PM CEST
+EESchema Schematic File Version 2  date Fri 01 Jun 2012 07:09:12 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -47,6 +47,116 @@ Comment4 ""
 $EndDescr
 $Comp
 L GND #PWR?
+U 1 1 4FC8F70E
+P 3150 3700
+F 0 "#PWR?" H 3150 3700 30  0001 C CNN
+F 1 "GND" H 3150 3630 30  0001 C CNN
+	1    3150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FC8F706
+P 3950 3700
+F 0 "#PWR?" H 3950 3700 30  0001 C CNN
+F 1 "GND" H 3950 3630 30  0001 C CNN
+	1    3950 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3600 3150 3700
+Wire Wire Line
+	4600 2900 3950 2900
+Wire Wire Line
+	3150 3100 3250 3100
+Wire Wire Line
+	2350 2350 2150 2350
+Wire Wire Line
+	2350 2150 2150 2150
+Connection ~ 2250 3050
+Wire Wire Line
+	2250 3150 2250 2550
+Wire Wire Line
+	1650 3050 1250 3050
+Wire Wire Line
+	2250 2550 2150 2550
+Wire Wire Line
+	1450 2950 1450 3050
+Wire Wire Line
+	1250 3050 1250 2950
+Wire Wire Line
+	9550 5950 9550 6000
+Wire Wire Line
+	8900 5900 8900 6000
+Wire Wire Line
+	10350 5500 10350 5300
+Connection ~ 8900 5400
+Wire Wire Line
+	8900 5400 8900 5500
+Wire Wire Line
+	10650 5400 10150 5400
+Connection ~ 10250 5400
+Wire Wire Line
+	10250 5400 10250 5500
+Wire Wire Line
+	10250 5500 10150 5500
+Wire Wire Line
+	8800 5400 9000 5400
+Connection ~ 10350 5400
+Wire Wire Line
+	10350 5900 10350 6000
+Wire Wire Line
+	1350 2950 1350 3050
+Wire Wire Line
+	1550 2950 1550 3050
+Wire Wire Line
+	2250 3050 2150 3050
+Wire Wire Line
+	2350 2250 2150 2250
+Wire Wire Line
+	2250 2150 2250 2050
+Connection ~ 2250 2150
+Wire Wire Line
+	4600 2800 3150 2800
+Wire Wire Line
+	3150 2800 3150 3200
+Connection ~ 3150 3100
+Wire Wire Line
+	3950 3100 3850 3100
+Wire Wire Line
+	3950 2900 3950 3200
+Connection ~ 3950 3100
+Wire Wire Line
+	3950 3600 3950 3700
+$Comp
+L C C?
+U 1 1 4FC8F6F8
+P 3150 3400
+F 0 "C?" H 3200 3500 50  0000 L CNN
+F 1 "C" H 3200 3300 50  0000 L CNN
+	1    3150 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4FC8F6F5
+P 3950 3400
+F 0 "C?" H 4000 3500 50  0000 L CNN
+F 1 "C" H 4000 3300 50  0000 L CNN
+	1    3950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CRYSTAL X?
+U 1 1 4FC8F695
+P 3550 3100
+F 0 "X?" H 3550 3250 60  0000 C CNN
+F 1 "24MHz" H 3550 2950 60  0000 C CNN
+	1    3550 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
 U 1 1 4FC8F61F
 P 2250 3150
 F 0 "#PWR?" H 2250 3150 30  0001 C CNN
@@ -63,53 +173,6 @@ F 1 "+5V" H 2250 2140 30  0000 C CNN
 	1    2250 2050
 	1    0    0    -1  
 $EndComp
-Connection ~ 2250 2150
-Wire Wire Line
-	2250 2150 2250 2050
-Wire Wire Line
-	2350 2250 2150 2250
-Wire Wire Line
-	2250 3050 2150 3050
-Wire Wire Line
-	1550 2950 1550 3050
-Wire Wire Line
-	1350 2950 1350 3050
-Wire Wire Line
-	10350 5900 10350 6000
-Connection ~ 10350 5400
-Wire Wire Line
-	8800 5400 9000 5400
-Wire Wire Line
-	10150 5500 10250 5500
-Wire Wire Line
-	10250 5500 10250 5400
-Connection ~ 10250 5400
-Wire Wire Line
-	10650 5400 10150 5400
-Wire Wire Line
-	8900 5400 8900 5500
-Connection ~ 8900 5400
-Wire Wire Line
-	10350 5500 10350 5300
-Wire Wire Line
-	8900 5900 8900 6000
-Wire Wire Line
-	9550 5950 9550 6000
-Wire Wire Line
-	1250 2950 1250 3050
-Wire Wire Line
-	1450 2950 1450 3050
-Wire Wire Line
-	2150 2550 2250 2550
-Wire Wire Line
-	1250 3050 1650 3050
-Wire Wire Line
-	2250 2550 2250 3150
-Connection ~ 2250 3050
-Wire Wire Line
-	2350 2150 2150 2150
-Wire Wire Line
-	2350 2350 2150 2350
 Text Label 2350 2150 0    60   ~ 0
 VBUS
 Text Label 2350 2250 0    60   ~ 0

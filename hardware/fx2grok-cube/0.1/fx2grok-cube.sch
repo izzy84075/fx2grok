@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 01 Jun 2012 07:00:26 PM CEST
+EESchema Schematic File Version 2  date Fri 01 Jun 2012 07:04:47 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,29 +45,91 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 10650 5400 0    60   ~ 0
-VCC
+$Comp
+L GND #PWR?
+U 1 1 4FC8F61F
+P 2250 3150
+F 0 "#PWR?" H 2250 3150 30  0001 C CNN
+F 1 "GND" H 2250 3080 30  0001 C CNN
+	1    2250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 4FC8F618
+P 2250 2050
+F 0 "#PWR?" H 2250 2140 20  0001 C CNN
+F 1 "+5V" H 2250 2140 30  0000 C CNN
+	1    2250 2050
+	1    0    0    -1  
+$EndComp
+Connection ~ 2250 2150
 Wire Wire Line
-	9550 5950 9550 6000
+	2250 2150 2250 2050
+Wire Wire Line
+	2350 2250 2150 2250
+Wire Wire Line
+	2250 3050 2150 3050
+Wire Wire Line
+	1550 2950 1550 3050
+Wire Wire Line
+	1350 2950 1350 3050
+Wire Wire Line
+	10350 5900 10350 6000
+Connection ~ 10350 5400
+Wire Wire Line
+	8800 5400 9000 5400
+Wire Wire Line
+	10150 5500 10250 5500
+Wire Wire Line
+	10250 5500 10250 5400
+Connection ~ 10250 5400
+Wire Wire Line
+	10650 5400 10150 5400
+Wire Wire Line
+	8900 5400 8900 5500
+Connection ~ 8900 5400
+Wire Wire Line
+	10350 5500 10350 5300
 Wire Wire Line
 	8900 5900 8900 6000
 Wire Wire Line
-	10350 5500 10350 5300
-Connection ~ 8900 5400
+	9550 5950 9550 6000
 Wire Wire Line
-	8900 5400 8900 5500
+	1250 2950 1250 3050
 Wire Wire Line
-	10650 5400 10150 5400
-Connection ~ 10250 5400
+	1450 2950 1450 3050
 Wire Wire Line
-	10250 5400 10250 5500
+	2150 2550 2250 2550
 Wire Wire Line
-	10250 5500 10150 5500
+	1250 3050 1650 3050
 Wire Wire Line
-	8800 5400 9000 5400
-Connection ~ 10350 5400
+	2250 2550 2250 3150
+Connection ~ 2250 3050
 Wire Wire Line
-	10350 5900 10350 6000
+	2350 2150 2150 2150
+Wire Wire Line
+	2350 2350 2150 2350
+Text Label 2350 2150 0    60   ~ 0
+VBUS
+Text Label 2350 2250 0    60   ~ 0
+DM
+Text Label 2350 2350 0    60   ~ 0
+DP
+NoConn ~ 2150 2450
+Text Label 1250 3050 2    60   ~ 0
+SHIELD
+$Comp
+L R R?
+U 1 1 4FC8F58A
+P 1900 3050
+F 0 "R?" V 1980 3050 50  0000 C CNN
+F 1 "0R" V 1900 3050 50  0000 C CNN
+	1    1900 3050
+	0    -1   -1   0   
+$EndComp
+Text Label 10650 5400 0    60   ~ 0
+VCC
 $Comp
 L GND #PWR?
 U 1 1 4FC8F4A1

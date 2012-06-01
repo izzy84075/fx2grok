@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 01 Jun 2012 07:09:12 PM CEST
+EESchema Schematic File Version 2  date Fri 01 Jun 2012 07:19:58 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,24 +45,30 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L GND #PWR?
-U 1 1 4FC8F70E
-P 3150 3700
-F 0 "#PWR?" H 3150 3700 30  0001 C CNN
-F 1 "GND" H 3150 3630 30  0001 C CNN
-	1    3150 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 4FC8F706
-P 3950 3700
-F 0 "#PWR?" H 3950 3700 30  0001 C CNN
-F 1 "GND" H 3950 3630 30  0001 C CNN
-	1    3950 3700
-	1    0    0    -1  
-$EndComp
+Text Label 4400 3200 2    60   ~ 0
+DM
+Text Label 4400 3100 2    60   ~ 0
+DP
+Wire Wire Line
+	4600 3200 4400 3200
+Wire Wire Line
+	5900 5500 5900 5300
+Connection ~ 5700 5400
+Wire Wire Line
+	5700 5300 5700 5400
+Connection ~ 5900 5400
+Connection ~ 6200 5400
+Wire Wire Line
+	6200 5300 6200 5400
+Wire Wire Line
+	5900 1900 5900 2100
+Connection ~ 5700 2000
+Wire Wire Line
+	5700 2100 5700 2000
+Connection ~ 5900 2000
+Connection ~ 6200 2000
+Wire Wire Line
+	6200 2100 6200 2000
 Wire Wire Line
 	3150 3600 3150 3700
 Wire Wire Line
@@ -128,6 +134,90 @@ Wire Wire Line
 Connection ~ 3950 3100
 Wire Wire Line
 	3950 3600 3950 3700
+Wire Wire Line
+	5500 2100 5500 2000
+Wire Wire Line
+	5500 2000 6300 2000
+Wire Wire Line
+	6300 2000 6300 2100
+Wire Wire Line
+	6000 2100 6000 2000
+Connection ~ 6000 2000
+Wire Wire Line
+	5800 2100 5800 2000
+Connection ~ 5800 2000
+Wire Wire Line
+	5600 2100 5600 2000
+Connection ~ 5600 2000
+Wire Wire Line
+	5500 5300 5500 5400
+Wire Wire Line
+	5500 5400 6300 5400
+Wire Wire Line
+	6300 5400 6300 5300
+Wire Wire Line
+	6000 5300 6000 5400
+Connection ~ 6000 5400
+Wire Wire Line
+	5800 5300 5800 5400
+Connection ~ 5800 5400
+Wire Wire Line
+	5600 5300 5600 5400
+Connection ~ 5600 5400
+Wire Wire Line
+	4600 3100 4400 3100
+NoConn ~ 7300 3200
+NoConn ~ 7300 3100
+NoConn ~ 7300 3000
+NoConn ~ 7300 2900
+NoConn ~ 7300 2800
+NoConn ~ 7300 2700
+NoConn ~ 7300 2600
+NoConn ~ 7300 2500
+NoConn ~ 7300 4300
+NoConn ~ 7300 4400
+NoConn ~ 7300 4500
+NoConn ~ 7300 4600
+NoConn ~ 7300 4700
+NoConn ~ 7300 4800
+NoConn ~ 7300 4900
+NoConn ~ 7300 5000
+$Comp
+L GND #PWR?
+U 1 1 4FC8F816
+P 5900 5500
+F 0 "#PWR?" H 5900 5500 30  0001 C CNN
+F 1 "GND" H 5900 5430 30  0001 C CNN
+	1    5900 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4FC8F7FE
+P 5900 1900
+F 0 "#PWR?" H 5900 1860 30  0001 C CNN
+F 1 "+3.3V" H 5900 2010 30  0000 C CNN
+	1    5900 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FC8F70E
+P 3150 3700
+F 0 "#PWR?" H 3150 3700 30  0001 C CNN
+F 1 "GND" H 3150 3630 30  0001 C CNN
+	1    3150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FC8F706
+P 3950 3700
+F 0 "#PWR?" H 3950 3700 30  0001 C CNN
+F 1 "GND" H 3950 3630 30  0001 C CNN
+	1    3950 3700
+	1    0    0    -1  
+$EndComp
 $Comp
 L C C?
 U 1 1 4FC8F6F8
@@ -272,7 +362,7 @@ $Comp
 L CY7C68013A-56 U?
 U 1 1 4FC8F245
 P 6000 3800
-F 0 "U?" H 6000 2100 60  0000 C CNN
+F 0 "U?" H 6150 2000 60  0000 C CNN
 F 1 "CY7C68013A-56" H 6000 3800 60  0000 C CNN
 	1    6000 3800
 	1    0    0    -1  

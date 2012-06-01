@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 01 Jun 2012 05:47:48 PM CEST
+EESchema Schematic File Version 2  date Fri 01 Jun 2012 06:43:09 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-EELAYER 43  0
+LIBS:fx2grok-cube
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 03 Jun 2012 01:08:08 AM CEST
+EESchema Schematic File Version 2  date Sun 03 Jun 2012 01:18:31 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -626,7 +626,7 @@ L C C?
 U 1 1 4FC8F6F8
 P 3150 3400
 F 0 "C?" H 3200 3500 50  0000 L CNN
-F 1 "C" H 3200 3300 50  0000 L CNN
+F 1 "12pF" H 3200 3300 50  0000 L CNN
 	1    3150 3400
 	1    0    0    -1  
 $EndComp
@@ -635,7 +635,7 @@ L C C?
 U 1 1 4FC8F6F5
 P 3950 3400
 F 0 "C?" H 4000 3500 50  0000 L CNN
-F 1 "C" H 4000 3300 50  0000 L CNN
+F 1 "12pF" H 4000 3300 50  0000 L CNN
 	1    3950 3400
 	1    0    0    -1  
 $EndComp

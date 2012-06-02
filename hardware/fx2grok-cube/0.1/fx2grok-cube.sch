@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 03 Jun 2012 12:47:17 AM CEST
+EESchema Schematic File Version 2  date Sun 03 Jun 2012 01:08:08 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,6 +45,132 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 1050 7450 0    60   ~ 0
+2.2uF/100nF for all AVCC pins\n
+$Comp
+L C C?
+U 1 1 4FCA9C86
+P 2200 6950
+F 0 "C?" H 2250 7050 50  0000 L CNN
+F 1 "100nF" V 2300 6650 50  0000 L CNN
+	1    2200 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 6750 2200 6650
+Wire Wire Line
+	2200 7150 2200 7250
+$Comp
+L GND #PWR?
+U 1 1 4FCA9C85
+P 2200 7250
+F 0 "#PWR?" H 2200 7250 30  0001 C CNN
+F 1 "GND" H 2200 7180 30  0001 C CNN
+	1    2200 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4FCA9C84
+P 2200 6650
+F 0 "#PWR?" H 2200 6610 30  0001 C CNN
+F 1 "+3.3V" H 2200 6760 30  0000 C CNN
+	1    2200 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4FCA9C80
+P 1900 6650
+F 0 "#PWR?" H 1900 6610 30  0001 C CNN
+F 1 "+3.3V" H 1900 6760 30  0000 C CNN
+	1    1900 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FCA9C7F
+P 1900 7250
+F 0 "#PWR?" H 1900 7250 30  0001 C CNN
+F 1 "GND" H 1900 7180 30  0001 C CNN
+	1    1900 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 7150 1900 7250
+Wire Wire Line
+	1900 6750 1900 6650
+$Comp
+L C C?
+U 1 1 4FCA9C7E
+P 1900 6950
+F 0 "C?" H 1950 7050 50  0000 L CNN
+F 1 "100nF" V 2000 6650 50  0000 L CNN
+	1    1900 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4FCA9C79
+P 1600 6950
+F 0 "C?" H 1650 7050 50  0000 L CNN
+F 1 "2.2uF" V 1700 6650 50  0000 L CNN
+	1    1600 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 6750 1600 6650
+Wire Wire Line
+	1600 7150 1600 7250
+$Comp
+L GND #PWR?
+U 1 1 4FCA9C78
+P 1600 7250
+F 0 "#PWR?" H 1600 7250 30  0001 C CNN
+F 1 "GND" H 1600 7180 30  0001 C CNN
+	1    1600 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4FCA9C77
+P 1600 6650
+F 0 "#PWR?" H 1600 6610 30  0001 C CNN
+F 1 "+3.3V" H 1600 6760 30  0000 C CNN
+	1    1600 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4FCA9C5F
+P 1300 6650
+F 0 "#PWR?" H 1300 6610 30  0001 C CNN
+F 1 "+3.3V" H 1300 6760 30  0000 C CNN
+	1    1300 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FCA9C5E
+P 1300 7250
+F 0 "#PWR?" H 1300 7250 30  0001 C CNN
+F 1 "GND" H 1300 7180 30  0001 C CNN
+	1    1300 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 7150 1300 7250
+Wire Wire Line
+	1300 6750 1300 6650
+$Comp
+L C C?
+U 1 1 4FCA9C5D
+P 1300 6950
+F 0 "C?" H 1350 7050 50  0000 L CNN
+F 1 "2.2uF" V 1400 6650 50  0000 L CNN
+	1    1300 6950
+	1    0    0    -1  
+$EndComp
 Text Notes 1150 6350 0    60   ~ 0
 100nF bypass capacitors for all VCC pins\n
 $Comp

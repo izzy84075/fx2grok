@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 03 Jun 2012 01:39:12 AM CEST
+EESchema Schematic File Version 2  date Sun 03 Jun 2012 01:42:37 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -872,10 +872,10 @@ F 2 "~" H 10000 5050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CY7C68013A-56 U?
+L CY7C68013A-56 IC?
 U 1 1 4FC8F245
 P 6000 3800
-F 0 "U?" H 6650 2300 60  0000 C CNN
+F 0 "IC?" H 6650 2300 60  0000 C CNN
 F 1 "CY7C68013A-56" H 6000 3800 60  0000 C CNN
 	1    6000 3800
 	1    0    0    -1  

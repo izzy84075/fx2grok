@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+fx2grok
+-------------------------------------------------------------------------------
+
+The fx2grok device is intended to be the tinyiest possible Open Hardware FX2
+eval board (that can be used as 8-channel logic analyzer).
+
+The schematics and layout are done from scratch in Kicad, and are released
+under the CC-BY-SA 3.0 license.
+
+Using the open-source fx2lafw firmware (and sigrok, of course) you can use
+this device as 8-channel logic analyzer.
+
+
+Schematics, PCB layout
+----------------------
+
+The schematics and PCB layout are available from the fx2grok git repo:
+
+  $ git clone git://sigrok.git.sourceforge.net/gitroot/sigrok/fx2grok
+
+
+Mailing lists
+-------------
+
+There are two mailing lists for sigrok/fx2grok:
+
+ https://lists.sourceforge.net/lists/listinfo/sigrok-devel
+ https://lists.sourceforge.net/lists/listinfo/sigrok-commits
+
+
+IRC
+---
+
+You can find the fx2grok developers in the #sigrok IRC channel on Freenode.
+
+
+Website
+-------
+
+http://sigrok.org/Fx2grok
+

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 03 Jun 2012 12:33:40 AM CEST
+EESchema Schematic File Version 2  date Sun 03 Jun 2012 12:40:01 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -46,14 +46,18 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR?
-U 1 1 4FCA94C1
-P 4500 4900
-F 0 "#PWR?" H 4500 4900 30  0001 C CNN
-F 1 "GND" H 4500 4830 30  0001 C CNN
-	1    4500 4900
+L +3.3V #PWR?
+U 1 1 4FCA95BE
+P 3900 4500
+F 0 "#PWR?" H 3900 4460 30  0001 C CNN
+F 1 "+3.3V" H 3900 4610 30  0000 C CNN
+	1    3900 4500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3900 4500 3900 4600
+Wire Wire Line
+	3900 4600 4000 4600
 Wire Wire Line
 	4500 4900 4500 4800
 Wire Wire Line
@@ -190,6 +194,26 @@ Wire Wire Line
 Wire Wire Line
 	2200 4450 2300 4450
 Connection ~ 2200 4450
+Wire Wire Line
+	4600 4600 4500 4600
+$Comp
+L R R?
+U 1 1 4FCA95B2
+P 4250 4600
+F 0 "R?" V 4330 4600 50  0000 C CNN
+F 1 "100K" V 4250 4600 50  0000 C CNN
+	1    4250 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FCA94C1
+P 4500 4900
+F 0 "#PWR?" H 4500 4900 30  0001 C CNN
+F 1 "GND" H 4500 4830 30  0001 C CNN
+	1    4500 4900
+	1    0    0    -1  
+$EndComp
 Text Notes 2300 4900 0    60   ~ 0
 I2C pullups
 Text Label 2900 4700 0    60   ~ 0

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 01 Jun 2012 07:19:58 PM CEST
+EESchema Schematic File Version 2  date Sun 03 Jun 2012 12:31:54 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "1 jun 2012"
+Date "2 jun 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,10 +45,34 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 4400 3200 2    60   ~ 0
-DM
-Text Label 4400 3100 2    60   ~ 0
-DP
+Text Notes 2300 4900 0    60   ~ 0
+I2C pullups
+Text Label 2900 4700 0    60   ~ 0
+SDA
+Text Label 2900 4450 0    60   ~ 0
+SCL
+Text Label 4500 3800 2    60   ~ 0
+SDA
+Text Label 4500 3700 2    60   ~ 0
+SCL
+$Comp
+L +3.3V #PWR?
+U 1 1 4FCA93DC
+P 2200 4350
+F 0 "#PWR?" H 2200 4310 30  0001 C CNN
+F 1 "+3.3V" H 2200 4460 30  0000 C CNN
+	1    2200 4350
+	1    0    0    -1  
+$EndComp
+Connection ~ 2200 4450
+Wire Wire Line
+	2200 4450 2300 4450
+Wire Wire Line
+	2300 4700 2200 4700
+Wire Wire Line
+	2800 4700 2900 4700
+Wire Wire Line
+	4600 3800 4500 3800
 Wire Wire Line
 	4600 3200 4400 3200
 Wire Wire Line
@@ -166,6 +190,34 @@ Wire Wire Line
 Connection ~ 5600 5400
 Wire Wire Line
 	4600 3100 4400 3100
+Wire Wire Line
+	4600 3700 4500 3700
+Wire Wire Line
+	2800 4450 2900 4450
+Wire Wire Line
+	2200 4700 2200 4350
+$Comp
+L R R?
+U 1 1 4FCA93C6
+P 2550 4700
+F 0 "R?" V 2630 4700 50  0000 C CNN
+F 1 "2K2" V 2550 4700 50  0000 C CNN
+	1    2550 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4FCA93BD
+P 2550 4450
+F 0 "R?" V 2630 4450 50  0000 C CNN
+F 1 "2K2" V 2550 4450 50  0000 C CNN
+	1    2550 4450
+	0    -1   -1   0   
+$EndComp
+Text Label 4400 3200 2    60   ~ 0
+DM
+Text Label 4400 3100 2    60   ~ 0
+DP
 NoConn ~ 7300 3200
 NoConn ~ 7300 3100
 NoConn ~ 7300 3000

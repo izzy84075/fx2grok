@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 03 Jun 2012 12:40:01 AM CEST
+EESchema Schematic File Version 2  date Sun 03 Jun 2012 12:47:17 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,15 +45,183 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 1150 6350 0    60   ~ 0
+100nF bypass capacitors for all VCC pins\n
 $Comp
-L +3.3V #PWR?
-U 1 1 4FCA95BE
-P 3900 4500
-F 0 "#PWR?" H 3900 4460 30  0001 C CNN
-F 1 "+3.3V" H 3900 4610 30  0000 C CNN
-	1    3900 4500
+L C C?
+U 1 1 4FCA97A0
+P 2800 5850
+F 0 "C?" H 2850 5950 50  0000 L CNN
+F 1 "100nF" V 2900 5550 50  0000 L CNN
+	1    2800 5850
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2800 5650 2800 5550
+Wire Wire Line
+	2800 6050 2800 6150
+$Comp
+L GND #PWR?
+U 1 1 4FCA979F
+P 2800 6150
+F 0 "#PWR?" H 2800 6150 30  0001 C CNN
+F 1 "GND" H 2800 6080 30  0001 C CNN
+	1    2800 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4FCA979E
+P 2800 5550
+F 0 "#PWR?" H 2800 5510 30  0001 C CNN
+F 1 "+3.3V" H 2800 5660 30  0000 C CNN
+	1    2800 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4FCA979B
+P 2500 5550
+F 0 "#PWR?" H 2500 5510 30  0001 C CNN
+F 1 "+3.3V" H 2500 5660 30  0000 C CNN
+	1    2500 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FCA979A
+P 2500 6150
+F 0 "#PWR?" H 2500 6150 30  0001 C CNN
+F 1 "GND" H 2500 6080 30  0001 C CNN
+	1    2500 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 6050 2500 6150
+Wire Wire Line
+	2500 5650 2500 5550
+$Comp
+L C C?
+U 1 1 4FCA9799
+P 2500 5850
+F 0 "C?" H 2550 5950 50  0000 L CNN
+F 1 "100nF" V 2600 5550 50  0000 L CNN
+	1    2500 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4FCA9793
+P 1900 5850
+F 0 "C?" H 1950 5950 50  0000 L CNN
+F 1 "100nF" V 2000 5550 50  0000 L CNN
+	1    1900 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 5650 1900 5550
+Wire Wire Line
+	1900 6050 1900 6150
+$Comp
+L GND #PWR?
+U 1 1 4FCA9792
+P 1900 6150
+F 0 "#PWR?" H 1900 6150 30  0001 C CNN
+F 1 "GND" H 1900 6080 30  0001 C CNN
+	1    1900 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4FCA9791
+P 1900 5550
+F 0 "#PWR?" H 1900 5510 30  0001 C CNN
+F 1 "+3.3V" H 1900 5660 30  0000 C CNN
+	1    1900 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4FCA9779
+P 1600 5550
+F 0 "#PWR?" H 1600 5510 30  0001 C CNN
+F 1 "+3.3V" H 1600 5660 30  0000 C CNN
+	1    1600 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FCA9778
+P 1600 6150
+F 0 "#PWR?" H 1600 6150 30  0001 C CNN
+F 1 "GND" H 1600 6080 30  0001 C CNN
+	1    1600 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 6050 1600 6150
+Wire Wire Line
+	1600 5650 1600 5550
+$Comp
+L C C?
+U 1 1 4FCA9777
+P 1600 5850
+F 0 "C?" H 1650 5950 50  0000 L CNN
+F 1 "100nF" V 1700 5550 50  0000 L CNN
+	1    1600 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4FCA9724
+P 2200 5850
+F 0 "C?" H 2250 5950 50  0000 L CNN
+F 1 "100nF" V 2300 5550 50  0000 L CNN
+	1    2200 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5650 2200 5550
+Wire Wire Line
+	2200 6050 2200 6150
+$Comp
+L GND #PWR?
+U 1 1 4FCA9723
+P 2200 6150
+F 0 "#PWR?" H 2200 6150 30  0001 C CNN
+F 1 "GND" H 2200 6080 30  0001 C CNN
+	1    2200 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4FCA9722
+P 2200 5550
+F 0 "#PWR?" H 2200 5510 30  0001 C CNN
+F 1 "+3.3V" H 2200 5660 30  0000 C CNN
+	1    2200 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4FCA9708
+P 1300 5550
+F 0 "#PWR?" H 1300 5510 30  0001 C CNN
+F 1 "+3.3V" H 1300 5660 30  0000 C CNN
+	1    1300 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FCA9706
+P 1300 6150
+F 0 "#PWR?" H 1300 6150 30  0001 C CNN
+F 1 "GND" H 1300 6080 30  0001 C CNN
+	1    1300 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 6050 1300 6150
 Wire Wire Line
 	3900 4500 3900 4600
 Wire Wire Line
@@ -196,6 +364,26 @@ Wire Wire Line
 Connection ~ 2200 4450
 Wire Wire Line
 	4600 4600 4500 4600
+Wire Wire Line
+	1300 5650 1300 5550
+$Comp
+L C C?
+U 1 1 4FCA96AB
+P 1300 5850
+F 0 "C?" H 1350 5950 50  0000 L CNN
+F 1 "100nF" V 1400 5550 50  0000 L CNN
+	1    1300 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4FCA95BE
+P 3900 4500
+F 0 "#PWR?" H 3900 4460 30  0001 C CNN
+F 1 "+3.3V" H 3900 4610 30  0000 C CNN
+	1    3900 4500
+	1    0    0    -1  
+$EndComp
 $Comp
 L R R?
 U 1 1 4FCA95B2

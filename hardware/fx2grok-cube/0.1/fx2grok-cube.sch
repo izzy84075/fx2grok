@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 03 Jun 2012 01:18:31 AM CEST
+EESchema Schematic File Version 2  date Sun 03 Jun 2012 01:36:34 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,130 +45,374 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 1050 7450 0    60   ~ 0
-2.2uF/100nF for all AVCC pins\n
+Text Label 1550 4000 0    60   ~ 0
+WAKEUP
+Text Notes 1900 4300 2    60   ~ 0
+WAKEUP is tied to VCC
+Text Label 4500 4600 2    60   ~ 0
+WAKEUP
+Wire Wire Line
+	4600 4600 4500 4600
+Wire Wire Line
+	4600 2900 4500 2900
+Wire Wire Line
+	4600 3100 4500 3100
+Wire Wire Line
+	4600 3400 4500 3400
+Wire Wire Line
+	7300 4000 7400 4000
+Wire Wire Line
+	7300 3800 7400 3800
+Wire Wire Line
+	7300 3600 7400 3600
+Wire Wire Line
+	7300 3400 7400 3400
+Wire Wire Line
+	4600 4100 4500 4100
+Wire Wire Line
+	2200 6850 2200 6750
+Wire Wire Line
+	2200 7250 2200 7350
+Wire Wire Line
+	1900 7250 1900 7350
+Wire Wire Line
+	1900 6850 1900 6750
+Wire Wire Line
+	1600 6850 1600 6750
+Wire Wire Line
+	1600 7250 1600 7350
+Wire Wire Line
+	1300 7250 1300 7350
+Wire Wire Line
+	1300 6850 1300 6750
+Wire Wire Line
+	2800 5650 2800 5550
+Wire Wire Line
+	2800 6050 2800 6150
+Wire Wire Line
+	2500 6050 2500 6150
+Wire Wire Line
+	2500 5650 2500 5550
+Wire Wire Line
+	1900 5650 1900 5550
+Wire Wire Line
+	1900 6050 1900 6150
+Wire Wire Line
+	1600 6050 1600 6150
+Wire Wire Line
+	1600 5650 1600 5550
+Wire Wire Line
+	2200 5650 2200 5550
+Wire Wire Line
+	2200 6050 2200 6150
+Wire Wire Line
+	1300 6050 1300 6150
+Wire Wire Line
+	850  3900 850  4000
+Wire Wire Line
+	850  4000 950  4000
+Wire Wire Line
+	4500 4900 4500 4800
+Wire Wire Line
+	4500 4800 4600 4800
+Wire Wire Line
+	2400 4150 2400 4500
+Wire Wire Line
+	3000 4250 3100 4250
+Wire Wire Line
+	4600 3700 4500 3700
+Connection ~ 5600 5400
+Wire Wire Line
+	5600 5300 5600 5400
+Connection ~ 5800 5400
+Wire Wire Line
+	5800 5300 5800 5400
+Connection ~ 6000 5400
+Wire Wire Line
+	6000 5300 6000 5400
+Wire Wire Line
+	6300 5300 6300 5400
+Wire Wire Line
+	6300 5400 5500 5400
+Wire Wire Line
+	5500 5400 5500 5300
+Connection ~ 5600 2000
+Wire Wire Line
+	5600 2100 5600 2000
+Connection ~ 5800 2000
+Wire Wire Line
+	5800 2100 5800 2000
+Connection ~ 6000 2000
+Wire Wire Line
+	6000 2100 6000 2000
+Wire Wire Line
+	6300 2100 6300 2000
+Wire Wire Line
+	6300 2000 5500 2000
+Wire Wire Line
+	5500 2000 5500 2100
+Wire Wire Line
+	2150 3100 2150 3200
+Connection ~ 2150 2600
+Wire Wire Line
+	2150 2600 2050 2600
+Connection ~ 1350 2600
+Connection ~ 2150 900 
+Wire Wire Line
+	2150 900  2150 800 
+Wire Wire Line
+	2250 1000 2050 1000
+Wire Wire Line
+	2150 1800 2050 1800
+Wire Wire Line
+	1450 1700 1450 1800
+Wire Wire Line
+	1250 1700 1250 1800
+Wire Wire Line
+	10350 5900 10350 6000
+Connection ~ 10350 5400
+Wire Wire Line
+	8800 5400 9000 5400
+Wire Wire Line
+	10150 5500 10250 5500
+Wire Wire Line
+	10250 5500 10250 5400
+Connection ~ 10250 5400
+Wire Wire Line
+	10650 5400 10150 5400
+Wire Wire Line
+	8900 5400 8900 5500
+Connection ~ 8900 5400
+Wire Wire Line
+	10350 5500 10350 5300
+Wire Wire Line
+	8900 5900 8900 6000
+Wire Wire Line
+	9550 5950 9550 6000
+Wire Wire Line
+	1150 1700 1150 1800
+Wire Wire Line
+	1350 1700 1350 1800
+Wire Wire Line
+	2050 1300 2150 1300
+Wire Wire Line
+	1150 1800 1550 1800
+Wire Wire Line
+	2150 1300 2150 1900
+Connection ~ 2150 1800
+Wire Wire Line
+	2250 900  2050 900 
+Wire Wire Line
+	2250 1100 2050 1100
+Wire Wire Line
+	1350 2600 1450 2600
+Wire Wire Line
+	1350 3100 1350 3200
+Wire Wire Line
+	6200 2100 6200 2000
+Connection ~ 6200 2000
+Connection ~ 5900 2000
+Wire Wire Line
+	5700 2100 5700 2000
+Connection ~ 5700 2000
+Wire Wire Line
+	5900 1900 5900 2100
+Wire Wire Line
+	6200 5300 6200 5400
+Connection ~ 6200 5400
+Connection ~ 5900 5400
+Wire Wire Line
+	5700 5300 5700 5400
+Connection ~ 5700 5400
+Wire Wire Line
+	5900 5500 5900 5300
+Wire Wire Line
+	4600 3800 4500 3800
+Wire Wire Line
+	3000 4500 3100 4500
+Wire Wire Line
+	2400 4500 2500 4500
+Wire Wire Line
+	2400 4250 2500 4250
+Connection ~ 2400 4250
+Wire Wire Line
+	1550 4000 1450 4000
+Wire Wire Line
+	1300 5650 1300 5550
+Wire Wire Line
+	4600 4000 4500 4000
+Wire Wire Line
+	4600 4200 4500 4200
+Wire Wire Line
+	7300 3500 7400 3500
+Wire Wire Line
+	7300 3700 7400 3700
+Wire Wire Line
+	7300 3900 7400 3900
+Wire Wire Line
+	7300 4100 7400 4100
+Wire Wire Line
+	4600 3500 4500 3500
+Wire Wire Line
+	4500 3200 4600 3200
+Wire Wire Line
+	2150 2700 2150 2500
+Wire Wire Line
+	4600 2800 4500 2800
+Wire Wire Line
+	1350 2700 1350 2500
+Text Label 2150 2500 0    60   ~ 0
+XTALIN
+Text Label 1350 2500 2    60   ~ 0
+XTALOUT
+Text Label 4500 2900 2    60   ~ 0
+XTALIN
+Text Label 4500 2800 2    60   ~ 0
+XTALOUT
+Text Notes 2050 3450 2    60   ~ 0
+24MHz crystal
+Text Notes 10150 6350 2    60   ~ 0
+3.3V voltage regulator
+Text Notes 1500 2050 2    60   ~ 0
+USB
+Text Notes 4800 5100 2    60   ~ 0
+RESERVED must be tied to GND
+Text Label 4500 3500 2    60   ~ 0
+CLKOUT
+Text Label 4500 3400 2    60   ~ 0
+IFCLK
+Text Label 7400 4100 0    60   ~ 0
+PB7
+Text Label 7400 4000 0    60   ~ 0
+PB6
+Text Label 7400 3900 0    60   ~ 0
+PB5
+Text Label 7400 3800 0    60   ~ 0
+PB4
+Text Label 7400 3700 0    60   ~ 0
+PB3
+Text Label 7400 3600 0    60   ~ 0
+PB2
+Text Label 7400 3500 0    60   ~ 0
+PB1
+Text Label 7400 3400 0    60   ~ 0
+PB0
+Text Label 4500 4200 2    60   ~ 0
+CTL2
+Text Label 4500 4100 2    60   ~ 0
+CTL1
+Text Label 4500 4000 2    60   ~ 0
+CTL0
+NoConn ~ 4600 2600
+NoConn ~ 4600 2500
+Text Notes 950  7550 0    60   ~ 0
+2.2uF/100nF bypass capacitors for all AVCC pins\n
 $Comp
 L C C?
 U 1 1 4FCA9C86
-P 2200 6950
-F 0 "C?" H 2250 7050 50  0000 L CNN
-F 1 "100nF" V 2300 6650 50  0000 L CNN
-	1    2200 6950
+P 2200 7050
+F 0 "C?" H 2250 7150 50  0000 L CNN
+F 1 "100nF" V 2300 6750 50  0000 L CNN
+	1    2200 7050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2200 6750 2200 6650
-Wire Wire Line
-	2200 7150 2200 7250
 $Comp
 L GND #PWR?
 U 1 1 4FCA9C85
-P 2200 7250
-F 0 "#PWR?" H 2200 7250 30  0001 C CNN
-F 1 "GND" H 2200 7180 30  0001 C CNN
-	1    2200 7250
+P 2200 7350
+F 0 "#PWR?" H 2200 7350 30  0001 C CNN
+F 1 "GND" H 2200 7280 30  0001 C CNN
+	1    2200 7350
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR?
 U 1 1 4FCA9C84
-P 2200 6650
-F 0 "#PWR?" H 2200 6610 30  0001 C CNN
-F 1 "+3.3V" H 2200 6760 30  0000 C CNN
-	1    2200 6650
+P 2200 6750
+F 0 "#PWR?" H 2200 6710 30  0001 C CNN
+F 1 "+3.3V" H 2200 6860 30  0000 C CNN
+	1    2200 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR?
 U 1 1 4FCA9C80
-P 1900 6650
-F 0 "#PWR?" H 1900 6610 30  0001 C CNN
-F 1 "+3.3V" H 1900 6760 30  0000 C CNN
-	1    1900 6650
+P 1900 6750
+F 0 "#PWR?" H 1900 6710 30  0001 C CNN
+F 1 "+3.3V" H 1900 6860 30  0000 C CNN
+	1    1900 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 4FCA9C7F
-P 1900 7250
-F 0 "#PWR?" H 1900 7250 30  0001 C CNN
-F 1 "GND" H 1900 7180 30  0001 C CNN
-	1    1900 7250
+P 1900 7350
+F 0 "#PWR?" H 1900 7350 30  0001 C CNN
+F 1 "GND" H 1900 7280 30  0001 C CNN
+	1    1900 7350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1900 7150 1900 7250
-Wire Wire Line
-	1900 6750 1900 6650
 $Comp
 L C C?
 U 1 1 4FCA9C7E
-P 1900 6950
-F 0 "C?" H 1950 7050 50  0000 L CNN
-F 1 "100nF" V 2000 6650 50  0000 L CNN
-	1    1900 6950
+P 1900 7050
+F 0 "C?" H 1950 7150 50  0000 L CNN
+F 1 "100nF" V 2000 6750 50  0000 L CNN
+	1    1900 7050
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C?
 U 1 1 4FCA9C79
-P 1600 6950
-F 0 "C?" H 1650 7050 50  0000 L CNN
-F 1 "2.2uF" V 1700 6650 50  0000 L CNN
-	1    1600 6950
+P 1600 7050
+F 0 "C?" H 1650 7150 50  0000 L CNN
+F 1 "2.2uF" V 1700 6750 50  0000 L CNN
+	1    1600 7050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 6750 1600 6650
-Wire Wire Line
-	1600 7150 1600 7250
 $Comp
 L GND #PWR?
 U 1 1 4FCA9C78
-P 1600 7250
-F 0 "#PWR?" H 1600 7250 30  0001 C CNN
-F 1 "GND" H 1600 7180 30  0001 C CNN
-	1    1600 7250
+P 1600 7350
+F 0 "#PWR?" H 1600 7350 30  0001 C CNN
+F 1 "GND" H 1600 7280 30  0001 C CNN
+	1    1600 7350
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR?
 U 1 1 4FCA9C77
-P 1600 6650
-F 0 "#PWR?" H 1600 6610 30  0001 C CNN
-F 1 "+3.3V" H 1600 6760 30  0000 C CNN
-	1    1600 6650
+P 1600 6750
+F 0 "#PWR?" H 1600 6710 30  0001 C CNN
+F 1 "+3.3V" H 1600 6860 30  0000 C CNN
+	1    1600 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR?
 U 1 1 4FCA9C5F
-P 1300 6650
-F 0 "#PWR?" H 1300 6610 30  0001 C CNN
-F 1 "+3.3V" H 1300 6760 30  0000 C CNN
-	1    1300 6650
+P 1300 6750
+F 0 "#PWR?" H 1300 6710 30  0001 C CNN
+F 1 "+3.3V" H 1300 6860 30  0000 C CNN
+	1    1300 6750
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 4FCA9C5E
-P 1300 7250
-F 0 "#PWR?" H 1300 7250 30  0001 C CNN
-F 1 "GND" H 1300 7180 30  0001 C CNN
-	1    1300 7250
+P 1300 7350
+F 0 "#PWR?" H 1300 7350 30  0001 C CNN
+F 1 "GND" H 1300 7280 30  0001 C CNN
+	1    1300 7350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1300 7150 1300 7250
-Wire Wire Line
-	1300 6750 1300 6650
 $Comp
 L C C?
 U 1 1 4FCA9C5D
-P 1300 6950
-F 0 "C?" H 1350 7050 50  0000 L CNN
-F 1 "2.2uF" V 1400 6650 50  0000 L CNN
-	1    1300 6950
+P 1300 7050
+F 0 "C?" H 1350 7150 50  0000 L CNN
+F 1 "2.2uF" V 1400 6750 50  0000 L CNN
+	1    1300 7050
 	1    0    0    -1  
 $EndComp
 Text Notes 1150 6350 0    60   ~ 0
@@ -182,10 +426,6 @@ F 1 "100nF" V 2900 5550 50  0000 L CNN
 	1    2800 5850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2800 5650 2800 5550
-Wire Wire Line
-	2800 6050 2800 6150
 $Comp
 L GND #PWR?
 U 1 1 4FCA979F
@@ -222,10 +462,6 @@ F 1 "GND" H 2500 6080 30  0001 C CNN
 	1    2500 6150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2500 6050 2500 6150
-Wire Wire Line
-	2500 5650 2500 5550
 $Comp
 L C C?
 U 1 1 4FCA9799
@@ -244,10 +480,6 @@ F 1 "100nF" V 2000 5550 50  0000 L CNN
 	1    1900 5850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1900 5650 1900 5550
-Wire Wire Line
-	1900 6050 1900 6150
 $Comp
 L GND #PWR?
 U 1 1 4FCA9792
@@ -284,10 +516,6 @@ F 1 "GND" H 1600 6080 30  0001 C CNN
 	1    1600 6150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1600 6050 1600 6150
-Wire Wire Line
-	1600 5650 1600 5550
 $Comp
 L C C?
 U 1 1 4FCA9777
@@ -306,10 +534,6 @@ F 1 "100nF" V 2300 5550 50  0000 L CNN
 	1    2200 5850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2200 5650 2200 5550
-Wire Wire Line
-	2200 6050 2200 6150
 $Comp
 L GND #PWR?
 U 1 1 4FCA9723
@@ -346,152 +570,6 @@ F 1 "GND" H 1300 6080 30  0001 C CNN
 	1    1300 6150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1300 6050 1300 6150
-Wire Wire Line
-	3900 4500 3900 4600
-Wire Wire Line
-	3900 4600 4000 4600
-Wire Wire Line
-	4500 4900 4500 4800
-Wire Wire Line
-	4500 4800 4600 4800
-Wire Wire Line
-	2200 4350 2200 4700
-Wire Wire Line
-	2800 4450 2900 4450
-Wire Wire Line
-	4600 3700 4500 3700
-Wire Wire Line
-	4600 3100 4400 3100
-Connection ~ 5600 5400
-Wire Wire Line
-	5600 5300 5600 5400
-Connection ~ 5800 5400
-Wire Wire Line
-	5800 5300 5800 5400
-Connection ~ 6000 5400
-Wire Wire Line
-	6000 5300 6000 5400
-Wire Wire Line
-	6300 5300 6300 5400
-Wire Wire Line
-	6300 5400 5500 5400
-Wire Wire Line
-	5500 5400 5500 5300
-Connection ~ 5600 2000
-Wire Wire Line
-	5600 2100 5600 2000
-Connection ~ 5800 2000
-Wire Wire Line
-	5800 2100 5800 2000
-Connection ~ 6000 2000
-Wire Wire Line
-	6000 2100 6000 2000
-Wire Wire Line
-	6300 2100 6300 2000
-Wire Wire Line
-	6300 2000 5500 2000
-Wire Wire Line
-	5500 2000 5500 2100
-Wire Wire Line
-	3950 3600 3950 3700
-Connection ~ 3950 3100
-Wire Wire Line
-	3950 3200 3950 2900
-Wire Wire Line
-	3950 3100 3850 3100
-Connection ~ 3150 3100
-Wire Wire Line
-	3150 3200 3150 2800
-Wire Wire Line
-	3150 2800 4600 2800
-Connection ~ 2250 2150
-Wire Wire Line
-	2250 2150 2250 2050
-Wire Wire Line
-	2350 2250 2150 2250
-Wire Wire Line
-	2250 3050 2150 3050
-Wire Wire Line
-	1550 2950 1550 3050
-Wire Wire Line
-	1350 2950 1350 3050
-Wire Wire Line
-	10350 5900 10350 6000
-Connection ~ 10350 5400
-Wire Wire Line
-	8800 5400 9000 5400
-Wire Wire Line
-	10150 5500 10250 5500
-Wire Wire Line
-	10250 5500 10250 5400
-Connection ~ 10250 5400
-Wire Wire Line
-	10650 5400 10150 5400
-Wire Wire Line
-	8900 5400 8900 5500
-Connection ~ 8900 5400
-Wire Wire Line
-	10350 5500 10350 5300
-Wire Wire Line
-	8900 5900 8900 6000
-Wire Wire Line
-	9550 5950 9550 6000
-Wire Wire Line
-	1250 2950 1250 3050
-Wire Wire Line
-	1450 2950 1450 3050
-Wire Wire Line
-	2150 2550 2250 2550
-Wire Wire Line
-	1250 3050 1650 3050
-Wire Wire Line
-	2250 2550 2250 3150
-Connection ~ 2250 3050
-Wire Wire Line
-	2350 2150 2150 2150
-Wire Wire Line
-	2350 2350 2150 2350
-Wire Wire Line
-	3150 3100 3250 3100
-Wire Wire Line
-	3950 2900 4600 2900
-Wire Wire Line
-	3150 3600 3150 3700
-Wire Wire Line
-	6200 2100 6200 2000
-Connection ~ 6200 2000
-Connection ~ 5900 2000
-Wire Wire Line
-	5700 2100 5700 2000
-Connection ~ 5700 2000
-Wire Wire Line
-	5900 1900 5900 2100
-Wire Wire Line
-	6200 5300 6200 5400
-Connection ~ 6200 5400
-Connection ~ 5900 5400
-Wire Wire Line
-	5700 5300 5700 5400
-Connection ~ 5700 5400
-Wire Wire Line
-	5900 5500 5900 5300
-Wire Wire Line
-	4600 3200 4400 3200
-Wire Wire Line
-	4600 3800 4500 3800
-Wire Wire Line
-	2800 4700 2900 4700
-Wire Wire Line
-	2200 4700 2300 4700
-Wire Wire Line
-	2200 4450 2300 4450
-Connection ~ 2200 4450
-Wire Wire Line
-	4600 4600 4500 4600
-Wire Wire Line
-	1300 5650 1300 5550
 $Comp
 L C C?
 U 1 1 4FCA96AB
@@ -504,19 +582,19 @@ $EndComp
 $Comp
 L +3.3V #PWR?
 U 1 1 4FCA95BE
-P 3900 4500
-F 0 "#PWR?" H 3900 4460 30  0001 C CNN
-F 1 "+3.3V" H 3900 4610 30  0000 C CNN
-	1    3900 4500
+P 850 3900
+F 0 "#PWR?" H 850 3860 30  0001 C CNN
+F 1 "+3.3V" H 850 4010 30  0000 C CNN
+	1    850  3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R?
 U 1 1 4FCA95B2
-P 4250 4600
-F 0 "R?" V 4330 4600 50  0000 C CNN
-F 1 "100K" V 4250 4600 50  0000 C CNN
-	1    4250 4600
+P 1200 4000
+F 0 "R?" V 1280 4000 50  0000 C CNN
+F 1 "100K" V 1200 4000 50  0000 C CNN
+	1    1200 4000
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -528,11 +606,11 @@ F 1 "GND" H 4500 4830 30  0001 C CNN
 	1    4500 4900
 	1    0    0    -1  
 $EndComp
-Text Notes 2300 4900 0    60   ~ 0
+Text Notes 2500 4700 0    60   ~ 0
 I2C pullups
-Text Label 2900 4700 0    60   ~ 0
+Text Label 3100 4500 0    60   ~ 0
 SDA
-Text Label 2900 4450 0    60   ~ 0
+Text Label 3100 4250 0    60   ~ 0
 SCL
 Text Label 4500 3800 2    60   ~ 0
 SDA
@@ -541,33 +619,33 @@ SCL
 $Comp
 L +3.3V #PWR?
 U 1 1 4FCA93DC
-P 2200 4350
-F 0 "#PWR?" H 2200 4310 30  0001 C CNN
-F 1 "+3.3V" H 2200 4460 30  0000 C CNN
-	1    2200 4350
+P 2400 4150
+F 0 "#PWR?" H 2400 4110 30  0001 C CNN
+F 1 "+3.3V" H 2400 4260 30  0000 C CNN
+	1    2400 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R?
 U 1 1 4FCA93C6
-P 2550 4700
-F 0 "R?" V 2630 4700 50  0000 C CNN
-F 1 "2K2" V 2550 4700 50  0000 C CNN
-	1    2550 4700
+P 2750 4500
+F 0 "R?" V 2830 4500 50  0000 C CNN
+F 1 "2K2" V 2750 4500 50  0000 C CNN
+	1    2750 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R?
 U 1 1 4FCA93BD
-P 2550 4450
-F 0 "R?" V 2630 4450 50  0000 C CNN
-F 1 "2K2" V 2550 4450 50  0000 C CNN
-	1    2550 4450
+P 2750 4250
+F 0 "R?" V 2830 4250 50  0000 C CNN
+F 1 "2K2" V 2750 4250 50  0000 C CNN
+	1    2750 4250
 	0    -1   -1   0   
 $EndComp
-Text Label 4400 3200 2    60   ~ 0
+Text Label 4500 3200 2    60   ~ 0
 DM
-Text Label 4400 3100 2    60   ~ 0
+Text Label 4500 3100 2    60   ~ 0
 DP
 NoConn ~ 7300 3200
 NoConn ~ 7300 3100
@@ -606,82 +684,82 @@ $EndComp
 $Comp
 L GND #PWR?
 U 1 1 4FC8F70E
-P 3150 3700
-F 0 "#PWR?" H 3150 3700 30  0001 C CNN
-F 1 "GND" H 3150 3630 30  0001 C CNN
-	1    3150 3700
+P 1350 3200
+F 0 "#PWR?" H 1350 3200 30  0001 C CNN
+F 1 "GND" H 1350 3130 30  0001 C CNN
+	1    1350 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 4FC8F706
-P 3950 3700
-F 0 "#PWR?" H 3950 3700 30  0001 C CNN
-F 1 "GND" H 3950 3630 30  0001 C CNN
-	1    3950 3700
+P 2150 3200
+F 0 "#PWR?" H 2150 3200 30  0001 C CNN
+F 1 "GND" H 2150 3130 30  0001 C CNN
+	1    2150 3200
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C?
 U 1 1 4FC8F6F8
-P 3150 3400
-F 0 "C?" H 3200 3500 50  0000 L CNN
-F 1 "12pF" H 3200 3300 50  0000 L CNN
-	1    3150 3400
+P 1350 2900
+F 0 "C?" H 1400 3000 50  0000 L CNN
+F 1 "12pF" H 1400 2800 50  0000 L CNN
+	1    1350 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C?
 U 1 1 4FC8F6F5
-P 3950 3400
-F 0 "C?" H 4000 3500 50  0000 L CNN
-F 1 "12pF" H 4000 3300 50  0000 L CNN
-	1    3950 3400
+P 2150 2900
+F 0 "C?" H 2200 3000 50  0000 L CNN
+F 1 "12pF" H 2200 2800 50  0000 L CNN
+	1    2150 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L CRYSTAL X?
 U 1 1 4FC8F695
-P 3550 3100
-F 0 "X?" H 3550 3250 60  0000 C CNN
-F 1 "24MHz" H 3550 2950 60  0000 C CNN
-	1    3550 3100
+P 1750 2600
+F 0 "X?" H 1750 2750 60  0000 C CNN
+F 1 "24MHz" H 1750 2450 60  0000 C CNN
+	1    1750 2600
 	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 4FC8F61F
-P 2250 3150
-F 0 "#PWR?" H 2250 3150 30  0001 C CNN
-F 1 "GND" H 2250 3080 30  0001 C CNN
-	1    2250 3150
+P 2150 1900
+F 0 "#PWR?" H 2150 1900 30  0001 C CNN
+F 1 "GND" H 2150 1830 30  0001 C CNN
+	1    2150 1900
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR?
 U 1 1 4FC8F618
-P 2250 2050
-F 0 "#PWR?" H 2250 2140 20  0001 C CNN
-F 1 "+5V" H 2250 2140 30  0000 C CNN
-	1    2250 2050
+P 2150 800
+F 0 "#PWR?" H 2150 890 20  0001 C CNN
+F 1 "+5V" H 2150 890 30  0000 C CNN
+	1    2150 800 
 	1    0    0    -1  
 $EndComp
-Text Label 2350 2150 0    60   ~ 0
+Text Label 2250 900  0    60   ~ 0
 VBUS
-Text Label 2350 2250 0    60   ~ 0
+Text Label 2250 1000 0    60   ~ 0
 DM
-Text Label 2350 2350 0    60   ~ 0
+Text Label 2250 1100 0    60   ~ 0
 DP
-NoConn ~ 2150 2450
-Text Label 1250 3050 2    60   ~ 0
+NoConn ~ 2050 1200
+Text Label 1150 1800 2    60   ~ 0
 SHIELD
 $Comp
 L R R?
 U 1 1 4FC8F58A
-P 1900 3050
-F 0 "R?" V 1980 3050 50  0000 C CNN
-F 1 "0R" V 1900 3050 50  0000 C CNN
-	1    1900 3050
+P 1800 1800
+F 0 "R?" V 1880 1800 50  0000 C CNN
+F 1 "0R" V 1800 1800 50  0000 C CNN
+	1    1800 1800
 	0    -1   -1   0   
 $EndComp
 Text Label 10650 5400 0    60   ~ 0
@@ -745,10 +823,10 @@ VBUS
 $Comp
 L MINI-USB-B-SMD U?
 U 1 1 4FC8F26B
-P 1650 2350
-F 0 "U?" H 1750 1900 60  0000 C CNN
-F 1 "MINI-USB-B-SMD" H 1500 2700 60  0000 C CNN
-	1    1650 2350
+P 1550 1100
+F 0 "U?" H 1650 650 60  0000 C CNN
+F 1 "MINI-USB-B-SMD" H 1400 1450 60  0000 C CNN
+	1    1550 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -765,7 +843,7 @@ $Comp
 L CY7C68013A-56 U?
 U 1 1 4FC8F245
 P 6000 3800
-F 0 "U?" H 6150 2000 60  0000 C CNN
+F 0 "U?" H 6650 2300 60  0000 C CNN
 F 1 "CY7C68013A-56" H 6000 3800 60  0000 C CNN
 	1    6000 3800
 	1    0    0    -1  

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 03 Jun 2012 01:42:37 AM CEST
+EESchema Schematic File Version 2  date Sun 03 Jun 2012 01:46:52 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,6 +45,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L MICRO-USB-B-SMD U?
+U 1 1 4FCAA5E6
+P 1550 1100
+F 0 "U?" H 1650 650 60  0000 C CNN
+F 1 "MICRO-USB-B-SMD" H 1400 1450 60  0000 C CNN
+	1    1550 1100
+	1    0    0    -1  
+$EndComp
 Text Label 4500 4400 2    60   ~ 0
 RESET#
 Wire Wire Line
@@ -852,15 +861,6 @@ F 1 "+3,3V" H 10350 5410 30  0000 C CNN
 $EndComp
 Text Label 8800 5400 2    60   ~ 0
 VBUS
-$Comp
-L MINI-USB-B-SMD U?
-U 1 1 4FC8F26B
-P 1550 1100
-F 0 "U?" H 1650 650 60  0000 C CNN
-F 1 "MINI-USB-B-SMD" H 1400 1450 60  0000 C CNN
-	1    1550 1100
-	1    0    0    -1  
-$EndComp
 $Comp
 L TLV1117-33 U?
 U 1 1 4FC8F260

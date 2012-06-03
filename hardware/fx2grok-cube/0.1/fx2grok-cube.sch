@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 03 Jun 2012 07:39:07 PM CEST
+EESchema Schematic File Version 2  date Mon 04 Jun 2012 12:58:48 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:fx2grok-cube
-LIBS:fx2grok-cube-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
@@ -45,22 +44,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 4600 3400
-NoConn ~ 4600 3500
-NoConn ~ 4600 4000
-NoConn ~ 4600 4100
-NoConn ~ 4600 4200
-Text Notes 9450 1050 0    60   ~ 0
-Kicad-internal stuff, ignore
 $Comp
-L GND #PWR37
-U 1 1 4FCB8E25
-P 10100 1400
-F 0 "#PWR37" H 10100 1400 30  0001 C CNN
-F 1 "GND" H 10100 1330 30  0001 C CNN
-	1    10100 1400
+L GND #PWR?
+U 1 1 4FCBEBA5
+P 850 5350
+F 0 "#PWR?" H 850 5350 30  0001 C CNN
+F 1 "GND" H 850 5280 30  0001 C CNN
+	1    850  5350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	850  5250 850  5350
 Wire Wire Line
 	10100 1300 10100 1400
 Connection ~ 1350 1800
@@ -290,8 +284,6 @@ Wire Wire Line
 Wire Wire Line
 	4600 4600 4500 4600
 Wire Wire Line
-	850  4650 850  4750
-Wire Wire Line
 	850  4750 950  4750
 Wire Wire Line
 	1550 4750 1450 4750
@@ -326,6 +318,35 @@ Connection ~ 1450 1800
 Wire Wire Line
 	1250 1700 1250 1800
 Connection ~ 1250 1800
+Wire Wire Line
+	850  4850 850  4650
+Connection ~ 850  4750
+$Comp
+L C C?
+U 1 1 4FCBEB98
+P 850 5050
+F 0 "C?" H 900 5150 50  0000 L CNN
+F 1 "1uF" H 900 4950 50  0000 L CNN
+F 2 "SM0603" H 850 5050 60  0001 C CNN
+	1    850  5050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4600 3400
+NoConn ~ 4600 3500
+NoConn ~ 4600 4000
+NoConn ~ 4600 4100
+NoConn ~ 4600 4200
+Text Notes 9450 1050 0    60   ~ 0
+Kicad-internal stuff, ignore
+$Comp
+L GND #PWR37
+U 1 1 4FCB8E25
+P 10100 1400
+F 0 "#PWR37" H 10100 1400 30  0001 C CNN
+F 1 "GND" H 10100 1330 30  0001 C CNN
+	1    10100 1400
+	1    0    0    -1  
+$EndComp
 $Comp
 L PWR_FLAG #FLG1
 U 1 1 4FCB8E1B
@@ -531,7 +552,7 @@ L R R2
 U 1 1 4FCAA3E6
 P 1200 4750
 F 0 "R2" V 1280 4750 50  0000 C CNN
-F 1 "100K" V 1200 4750 50  0000 C CNN
+F 1 "2K7" V 1200 4750 50  0000 C CNN
 F 2 "SM0603" H 1200 4750 60  0001 C CNN
 	1    1200 4750
 	0    -1   -1   0   
@@ -545,11 +566,11 @@ F 1 "+3.3V" H 850 4760 30  0000 C CNN
 	1    850  4650
 	1    0    0    -1  
 $EndComp
-Text Notes 1850 5050 2    60   ~ 0
-RESET# is tied to VCC
+Text Notes 2150 5000 2    60   ~ 0
+RESET# is tied to VCC\nvia 2K7 and 1uF
 Text Label 1550 4000 0    60   ~ 0
 WAKEUP
-Text Notes 1900 4300 2    60   ~ 0
+Text Notes 1900 4250 2    60   ~ 0
 WAKEUP is tied to VCC
 Text Label 4500 4600 2    60   ~ 0
 WAKEUP

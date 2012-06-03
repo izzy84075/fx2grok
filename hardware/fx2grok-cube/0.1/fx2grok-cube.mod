@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Mon 04 Jun 2012 12:51:49 AM CEST
+PCBNEW-LibModule-V1  Mon 04 Jun 2012 01:25:52 AM CEST
 # encoding utf-8
 $INDEX
 ABM11
@@ -6,103 +6,6 @@ MICRO-USB-B-SMD
 QFN56
 RPACK-8-SMD-0603
 $EndINDEX
-$MODULE MICRO-USB-B-SMD
-Po 0 0 0 15 4FCB8D5F 4FCB8153 ~~
-Li MICRO-USB-B-SMD
-Sc 4FCB8153
-AR MICRO-USB-B-SMD
-Op 0 0 0
-T0 59 2567 600 600 0 120 N I 21 N "MICRO-USB-B-SMD"
-T1 -12 -2035 600 600 0 120 N I 21 N "VAL**"
-$PAD
-Sh "1" R 157 531 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -512 -374
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "2" R 157 531 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -256 -374
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "3" R 157 531 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 0 -374
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "4" R 157 531 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 256 -374
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "5" R 157 531 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 512 -374
-.LocalClearance 39
-$EndPAD
-$PAD
-Sh "" R 827 630 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -1220 -335
-.LocalClearance 118
-$EndPAD
-$PAD
-Sh "" R 827 630 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1221 -335
-.LocalClearance 118
-$EndPAD
-$PAD
-Sh "" R 748 748 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 1535 669
-.LocalClearance 118
-$EndPAD
-$PAD
-Sh "" R 748 748 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po 472 669
-.LocalClearance 118
-$EndPAD
-$PAD
-Sh "" R 748 748 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -472 669
-.LocalClearance 118
-$EndPAD
-$PAD
-Sh "" R 748 748 0 0 0
-Dr 0 0 0
-At SMD N 00888000
-Ne 0 ""
-Po -1535 669
-.LocalClearance 118
-$EndPAD
-$EndMODULE  MICRO-USB-B-SMD
 $MODULE RPACK-8-SMD-0603
 Po 0 0 0 15 4FCBA75F 00000000 ~~
 Li RPACK-8-SMD-0603
@@ -286,7 +189,7 @@ $MODULE QFN56
 Po 0 0 0 15 4FCBEA5C 00000000 ~~
 Li QFN56
 Sc 00000000
-AR 
+AR
 Op 0 0 0
 T0 -1142 1043 600 600 0 120 N I 21 N "QFN56"
 T1 -1181 -3642 600 600 0 120 N I 21 N "VAL**"
@@ -747,4 +650,101 @@ Po 1495 1278
 .LocalClearance 39
 $EndPAD
 $EndMODULE  QFN56
+$MODULE MICRO-USB-B-SMD
+Po 0 0 0 15 4FCBF264 00000000 ~~
+Li MICRO-USB-B-SMD
+Sc 00000000
+AR MICRO-USB-B-SMD
+Op 0 0 0
+T0 59 2567 600 600 0 120 N I 21 N "MICRO-USB-B-SMD"
+T1 -12 -2035 600 600 0 120 N I 21 N "VAL**"
+$PAD
+Sh "1" R 157 531 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -512 -374
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "2" R 157 531 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -256 -374
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "3" R 157 531 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -374
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "4" R 157 531 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 256 -374
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "5" R 157 531 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 512 -374
+.LocalClearance 39
+$EndPAD
+$PAD
+Sh "6" R 827 630 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1220 -335
+.LocalClearance 118
+$EndPAD
+$PAD
+Sh "7" R 827 630 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1221 -335
+.LocalClearance 118
+$EndPAD
+$PAD
+Sh "9" R 748 748 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1535 669
+.LocalClearance 118
+$EndPAD
+$PAD
+Sh "" R 748 748 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 472 669
+.LocalClearance 118
+$EndPAD
+$PAD
+Sh "" R 748 748 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -472 669
+.LocalClearance 118
+$EndPAD
+$PAD
+Sh "8" R 748 748 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1535 669
+.LocalClearance 118
+$EndPAD
+$EndMODULE  MICRO-USB-B-SMD
 $EndLIBRARY

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 03 Jun 2012 03:22:54 AM CEST
+EESchema Schematic File Version 2  date Sun 03 Jun 2012 03:26:33 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,6 +44,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 7900 3400
+NoConn ~ 7900 3500
+NoConn ~ 7900 3600
+NoConn ~ 7900 3700
+NoConn ~ 7900 3800
+NoConn ~ 7900 3900
+NoConn ~ 7900 4000
+NoConn ~ 7900 4100
+NoConn ~ 4500 3500
+NoConn ~ 4500 3400
+NoConn ~ 4500 4200
+NoConn ~ 4500 4100
+NoConn ~ 4500 4000
 Connection ~ 1250 1800
 Wire Wire Line
 	1250 1700 1250 1800

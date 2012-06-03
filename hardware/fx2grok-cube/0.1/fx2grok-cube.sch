@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 03 Jun 2012 01:46:52 AM CEST
+EESchema Schematic File Version 2  date Sun 03 Jun 2012 02:01:15 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "2 jun 2012"
+Date "3 jun 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,17 +45,16 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MICRO-USB-B-SMD U?
-U 1 1 4FCAA5E6
-P 1550 1100
-F 0 "U?" H 1650 650 60  0000 C CNN
-F 1 "MICRO-USB-B-SMD" H 1400 1450 60  0000 C CNN
-	1    1550 1100
-	1    0    0    -1  
-$EndComp
-Text Label 4500 4400 2    60   ~ 0
-RESET#
+Wire Wire Line
+	10150 5400 10550 5400
+Wire Wire Line
+	10550 6050 10550 6150
+Wire Wire Line
+	10250 5650 10250 5550
+Wire Wire Line
+	10250 5550 10150 5550
+Wire Wire Line
+	8800 5400 8800 5650
 Wire Wire Line
 	4600 4400 4500 4400
 Wire Wire Line
@@ -132,25 +131,8 @@ Wire Wire Line
 	1150 1800 1150 1700
 Wire Wire Line
 	9550 5950 9550 6000
-Wire Wire Line
-	8900 5900 8900 6000
-Wire Wire Line
-	10350 5500 10350 5300
-Connection ~ 8900 5400
-Wire Wire Line
-	8900 5400 8900 5500
-Wire Wire Line
-	10650 5400 10150 5400
-Connection ~ 10250 5400
-Wire Wire Line
-	10250 5400 10250 5500
-Wire Wire Line
-	10250 5500 10150 5500
-Wire Wire Line
-	8800 5400 9000 5400
-Connection ~ 10350 5400
-Wire Wire Line
-	10350 5900 10350 6000
+Connection ~ 8800 5400
+Connection ~ 10550 5400
 Wire Wire Line
 	1250 1700 1250 1800
 Wire Wire Line
@@ -274,6 +256,76 @@ Wire Wire Line
 	850  4750 950  4750
 Wire Wire Line
 	1550 4750 1450 4750
+Wire Wire Line
+	8800 6050 8800 6150
+Wire Wire Line
+	9000 5550 8900 5550
+Wire Wire Line
+	8900 5550 8900 5400
+Connection ~ 8900 5400
+Wire Wire Line
+	8700 5400 9000 5400
+Wire Wire Line
+	10250 6050 10250 6150
+Wire Wire Line
+	10550 5650 10550 5300
+$Comp
+L GND #PWR?
+U 1 1 4FCAA874
+P 10250 6150
+F 0 "#PWR?" H 10250 6150 30  0001 C CNN
+F 1 "GND" H 10250 6080 30  0001 C CNN
+	1    10250 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4FCAA86B
+P 10250 5850
+F 0 "C?" H 10300 5950 50  0000 L CNN
+F 1 "100nF" H 10000 5750 50  0000 L CNN
+	1    10250 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4FCAA863
+P 10550 5850
+F 0 "C?" H 10600 5950 50  0000 L CNN
+F 1 "2.2uF" H 10600 5750 50  0000 L CNN
+	1    10550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4FCAA85F
+P 8800 5850
+F 0 "C?" H 8850 5950 50  0000 L CNN
+F 1 "1uF" H 8850 5750 50  0000 L CNN
+	1    8800 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L MIC5319 U?
+U 1 1 4FCAA78E
+P 9550 5450
+F 0 "U?" H 9750 5150 60  0000 C CNN
+F 1 "MIC5319" H 9550 5700 60  0000 C CNN
+F 2 "~" H 10000 5050 60  0000 C CNN
+	1    9550 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MICRO-USB-B-SMD U?
+U 1 1 4FCAA5E6
+P 1550 1100
+F 0 "U?" H 1650 650 60  0000 C CNN
+F 1 "MICRO-USB-B-SMD" H 1400 1450 60  0000 C CNN
+	1    1550 1100
+	1    0    0    -1  
+$EndComp
+Text Label 4500 4400 2    60   ~ 0
+RESET#
 Text Label 1550 4750 0    60   ~ 0
 RESET#
 $Comp
@@ -312,7 +364,7 @@ Text Label 4500 2800 2    60   ~ 0
 XTALOUT
 Text Notes 2050 3450 2    60   ~ 0
 24MHz crystal
-Text Notes 10150 6350 2    60   ~ 0
+Text Notes 10100 6400 2    60   ~ 0
 3.3V voltage regulator
 Text Notes 1500 2050 2    60   ~ 0
 USB
@@ -803,24 +855,22 @@ F 1 "0R" V 1800 1800 50  0000 C CNN
 	1    1800 1800
 	0    -1   -1   0   
 $EndComp
-Text Label 10650 5400 0    60   ~ 0
-VCC
 $Comp
 L GND #PWR?
 U 1 1 4FC8F4A1
-P 8900 6000
-F 0 "#PWR?" H 8900 6000 30  0001 C CNN
-F 1 "GND" H 8900 5930 30  0001 C CNN
-	1    8900 6000
+P 8800 6150
+F 0 "#PWR?" H 8800 6150 30  0001 C CNN
+F 1 "GND" H 8800 6080 30  0001 C CNN
+	1    8800 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 4FC8F49F
-P 10350 6000
-F 0 "#PWR?" H 10350 6000 30  0001 C CNN
-F 1 "GND" H 10350 5930 30  0001 C CNN
-	1    10350 6000
+P 10550 6150
+F 0 "#PWR?" H 10550 6150 30  0001 C CNN
+F 1 "GND" H 10550 6080 30  0001 C CNN
+	1    10550 6150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -833,44 +883,16 @@ F 1 "GND" H 9550 5930 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C?
-U 1 1 4FC8F488
-P 10350 5700
-F 0 "C?" H 10400 5800 50  0000 L CNN
-F 1 "100uF" H 10400 5600 50  0000 L CNN
-	1    10350 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP1 C?
-U 1 1 4FC8F483
-P 8900 5700
-F 0 "C?" H 8950 5800 50  0000 L CNN
-F 1 "10uF" H 8950 5600 50  0000 L CNN
-	1    8900 5700
-	1    0    0    -1  
-$EndComp
-$Comp
 L +3,3V #PWR?
 U 1 1 4FC8F454
-P 10350 5300
-F 0 "#PWR?" H 10350 5260 30  0001 C CNN
-F 1 "+3,3V" H 10350 5410 30  0000 C CNN
-	1    10350 5300
+P 10550 5300
+F 0 "#PWR?" H 10550 5260 30  0001 C CNN
+F 1 "+3,3V" H 10550 5410 30  0000 C CNN
+	1    10550 5300
 	1    0    0    -1  
 $EndComp
-Text Label 8800 5400 2    60   ~ 0
+Text Label 8700 5400 2    60   ~ 0
 VBUS
-$Comp
-L TLV1117-33 U?
-U 1 1 4FC8F260
-P 9550 5450
-F 0 "U?" H 9750 5150 60  0000 C CNN
-F 1 "TLV1117-33" H 9550 5700 60  0000 C CNN
-F 2 "~" H 10000 5050 60  0000 C CNN
-	1    9550 5450
-	1    0    0    -1  
-$EndComp
 $Comp
 L CY7C68013A-56 IC?
 U 1 1 4FC8F245

@@ -1,0 +1,506 @@
+# EESchema Netlist Version 1.1 created  Sun 03 Jun 2012 07:40:14 PM CEST
+(
+ ( /4FCAB259 RPACK-8-SMD-0603  RP1 R_PACK8 {Lib=R_PACK8}
+  (    1 N-000051 )
+  (    2 N-000028 )
+  (    3 N-000050 )
+  (    4 N-000019 )
+  (    5 N-000049 )
+  (    6 N-000015 )
+  (    7 N-000048 )
+  (    8 N-000038 )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+ )
+ ( /4FCAAF6B SM0603  R8 2K2 {Lib=R}
+  (    1 N-000045 )
+  (    2 +3.3V )
+ )
+ ( /4FCAAF69 SM0603  D3 PWRLED {Lib=LED}
+  (    1 N-000045 )
+  (    2 GND )
+ )
+ ( /4FCAAF48 SM0603  D2 LED2 {Lib=LED}
+  (    1 N-000044 )
+  (    2 GND )
+ )
+ ( /4FCAAF46 SM0603  R7 2K2 {Lib=R}
+  (    1 N-000044 )
+  (    2 /PD1 )
+ )
+ ( /4FCAAEBE SM0603  R6 2K2 {Lib=R}
+  (    1 N-000052 )
+  (    2 /PD0 )
+ )
+ ( /4FCAAEBC SM0603  D1 LED1 {Lib=LED}
+  (    1 N-000052 )
+  (    2 GND )
+ )
+ ( /4FCAA86B SM0603  C14 100nF {Lib=C}
+  (    1 N-000046 )
+  (    2 GND )
+ )
+ ( /4FCAA863 SM0603  C15 2.2uF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /4FCAA85F SM0603  C13 1uF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /4FCAA78E SOT23-5  U2 MIC5319 {Lib=MIC5319}
+  (    1 +5V )
+  (    2 GND )
+  (    3 +5V )
+  (    4 N-000046 )
+  (    5 +3.3V )
+ )
+ ( /4FCAA5E6 MICRO-USB-B-SMD  U1 MICRO-USB-B-SMD {Lib=MICRO-USB-B-SMD}
+  (    1 +5V )
+  (    2 /DM )
+  (    3 /DP )
+  (    4 ? )
+  (    5 GND )
+  (    6 /SHIELD )
+  (    7 /SHIELD )
+  (    8 /SHIELD )
+  (    9 /SHIELD )
+ )
+ ( /4FCAA3E6 SM0603  R2 100K {Lib=R}
+  (    1 +3.3V )
+  (    2 /RESET# )
+ )
+ ( /4FCA9C86 SM0603  C10 100nF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /4FCA9C7E SM0603  C7 100nF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /4FCA9C79 SM0603  C5 2.2uF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /4FCA9C5D SM0603  C2 2.2uF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /4FCA97A0 SM0603  C12 100nF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /4FCA9799 SM0603  C11 100nF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /4FCA9793 SM0603  C6 100nF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /4FCA9777 SM0603  C4 100nF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /4FCA9724 SM0603  C9 100nF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /4FCA96AB SM0603  C1 100nF {Lib=C}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /4FCA95B2 SM0603  R1 100K {Lib=R}
+  (    1 +3.3V )
+  (    2 /WAKEUP )
+ )
+ ( /4FCA93C6 SM0603  R5 2K2 {Lib=R}
+  (    1 +3.3V )
+  (    2 /SDA )
+ )
+ ( /4FCA93BD SM0603  R4 2K2 {Lib=R}
+  (    1 +3.3V )
+  (    2 /SCL )
+ )
+ ( /4FC8F6F8 SM0603  C3 12pF {Lib=C}
+  (    1 /XTALOUT )
+  (    2 GND )
+ )
+ ( /4FC8F6F5 SM0603  C8 12pF {Lib=C}
+  (    1 /XTALIN )
+  (    2 GND )
+ )
+ ( /4FC8F695 ABM11  X1 24MHz {Lib=CRYSTAL}
+  (    1 /XTALIN )
+  (    2 /XTALOUT )
+ )
+ ( /4FC8F58A SM0603  R3 0R {Lib=R}
+  (    1 /SHIELD )
+  (    2 GND )
+ )
+ ( /4FC8F245 QFN56  IC1 CY7C68013A-56 {Lib=CY7C68013A-56}
+  (    1 ? )
+  (    2 ? )
+  (    3 +3.3V )
+  (    4 /XTALOUT )
+  (    5 /XTALIN )
+  (    6 GND )
+  (    7 +3.3V )
+  (    8 /DP )
+  (    9 /DM )
+  (   10 GND )
+  (   11 +3.3V )
+  (   12 GND )
+  (   13 ? )
+  (   14 GND )
+  (   15 /SCL )
+  (   16 /SDA )
+  (   17 +3.3V )
+  (   18 N-000051 )
+  (   19 N-000028 )
+  (   20 N-000050 )
+  (   21 N-000019 )
+  (   22 N-000049 )
+  (   23 N-000015 )
+  (   24 N-000048 )
+  (   25 N-000038 )
+  (   26 GND )
+  (   27 +3.3V )
+  (   28 GND )
+  (   29 ? )
+  (   30 ? )
+  (   31 ? )
+  (   32 +3.3V )
+  (   33 ? )
+  (   34 ? )
+  (   35 ? )
+  (   36 ? )
+  (   37 ? )
+  (   38 ? )
+  (   39 ? )
+  (   40 ? )
+  (   41 GND )
+  (   42 /RESET# )
+  (   43 +3.3V )
+  (   44 /WAKEUP )
+  (   45 /PD0 )
+  (   46 /PD1 )
+  (   47 ? )
+  (   48 ? )
+  (   49 ? )
+  (   50 ? )
+  (   51 ? )
+  (   52 ? )
+  (   53 GND )
+  (   54 ? )
+  (   55 +3.3V )
+  (   56 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component C15
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ C7 2
+ R3 2
+ C5 2
+ IC1 6
+ U1 5
+ U2 2
+ IC1 56
+ C14 2
+ D1 2
+ IC1 41
+ IC1 12
+ IC1 10
+ IC1 53
+ IC1 14
+ C8 2
+ C10 2
+ C15 2
+ C13 2
+ C9 2
+ C2 2
+ C12 2
+ C6 2
+ D3 2
+ IC1 26
+ C4 2
+ IC1 28
+ C11 2
+ D2 2
+ C3 2
+ C1 2
+Net 2 "+3.3V" "+3.3V"
+ IC1 3
+ R2 1
+ C11 1
+ IC1 55
+ C6 1
+ C12 1
+ R1 1
+ R4 1
+ R5 1
+ C2 1
+ C1 1
+ C10 1
+ IC1 43
+ C4 1
+ IC1 32
+ IC1 11
+ C15 1
+ IC1 7
+ U2 5
+ R8 2
+ IC1 27
+ IC1 17
+ C9 1
+ C5 1
+ C7 1
+Net 7 "/RESET#" "RESET#"
+ R2 2
+ IC1 42
+Net 8 "/SHIELD" "SHIELD"
+ U1 8
+ U1 7
+ U1 9
+ R3 1
+ U1 6
+Net 15 "" ""
+ IC1 23
+ RP1 6
+Net 19 "" ""
+ RP1 4
+ IC1 21
+Net 23 "/DM" "DM"
+ IC1 9
+ U1 2
+Net 24 "/XTALIN" "XTALIN"
+ IC1 5
+ C8 1
+ X1 1
+Net 28 "" ""
+ IC1 19
+ RP1 2
+Net 33 "/XTALOUT" "XTALOUT"
+ C3 1
+ X1 2
+ IC1 4
+Net 35 "/SDA" "SDA"
+ IC1 16
+ R5 2
+Net 36 "/PD0" "PD0"
+ R6 2
+ IC1 45
+Net 38 "" ""
+ IC1 25
+ RP1 8
+Net 39 "/SCL" "SCL"
+ R4 2
+ IC1 15
+Net 41 "/WAKEUP" "WAKEUP"
+ R1 2
+ IC1 44
+Net 43 "/DP" "DP"
+ U1 3
+ IC1 8
+Net 44 "" ""
+ D2 1
+ R7 1
+Net 45 "" ""
+ R8 1
+ D3 1
+Net 46 "" ""
+ C14 1
+ U2 4
+Net 47 "/PD1" "PD1"
+ R7 2
+ IC1 46
+Net 48 "" ""
+ IC1 24
+ RP1 7
+Net 49 "" ""
+ RP1 5
+ IC1 22
+Net 50 "" ""
+ RP1 3
+ IC1 20
+Net 51 "" ""
+ RP1 1
+ IC1 18
+Net 52 "" ""
+ R6 1
+ D1 1
+Net 56 "+5V" "+5V"
+ U1 1
+ U2 3
+ U2 1
+ C13 1
+}
+#End

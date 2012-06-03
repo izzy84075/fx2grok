@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 03 Jun 2012 06:32:43 PM CEST
+EESchema Schematic File Version 2  date Sun 03 Jun 2012 06:45:14 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -348,6 +348,7 @@ U 1 1 4FCAB259
 P 7600 3750
 F 0 "RP?" H 7600 4200 40  0000 C CNN
 F 1 "R_PACK8" H 7600 4300 40  0000 C CNN
+F 2 "RPACK-8-SMD-0603" H 7600 3750 60  0001 C CNN
 	1    7600 3750
 	1    0    0    -1  
 $EndComp

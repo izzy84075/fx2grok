@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 03 Jun 2012 02:01:15 AM CEST
+EESchema Schematic File Version 2  date Sun 03 Jun 2012 02:06:36 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,6 +45,21 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 3600 7300 0    60   ~ 0
+Power LED
+$Comp
+L +3.3V #PWR?
+U 1 1 4FCAAA5C
+P 3800 5900
+F 0 "#PWR?" H 3800 5860 30  0001 C CNN
+F 1 "+3.3V" H 3800 6010 30  0000 C CNN
+	1    3800 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 7000 3800 7100
+Wire Wire Line
+	3800 6500 3800 6600
 Wire Wire Line
 	10150 5400 10550 5400
 Wire Wire Line
@@ -269,6 +284,35 @@ Wire Wire Line
 	10250 6050 10250 6150
 Wire Wire Line
 	10550 5650 10550 5300
+Wire Wire Line
+	3800 6000 3800 5900
+$Comp
+L LED D?
+U 1 1 4FCAAA36
+P 3800 6800
+F 0 "D?" H 3800 6900 50  0000 C CNN
+F 1 "LED" H 3800 6700 50  0000 C CNN
+	1    3800 6800
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4FCAAA2F
+P 3800 7100
+F 0 "#PWR?" H 3800 7100 30  0001 C CNN
+F 1 "GND" H 3800 7030 30  0001 C CNN
+	1    3800 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4FCAAA1D
+P 3800 6250
+F 0 "R?" V 3880 6250 50  0000 C CNN
+F 1 "2K2" V 3800 6250 50  0000 C CNN
+	1    3800 6250
+	1    0    0    -1  
+$EndComp
 $Comp
 L GND #PWR?
 U 1 1 4FCAA874

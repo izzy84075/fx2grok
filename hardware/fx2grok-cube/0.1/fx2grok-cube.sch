@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 03 Jun 2012 06:18:02 PM CEST
+EESchema Schematic File Version 2  date Sun 03 Jun 2012 06:32:43 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,15 +35,20 @@ EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "fx2lagrok"
 Date "3 jun 2012"
-Rev ""
-Comp ""
-Comment1 ""
+Rev "1"
+Comp "http://www.sigrok.org/Fx2grok"
+Comment1 "Open Hardware, CC-BY-SA 3.0"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 4600 3400
+NoConn ~ 4600 3500
+NoConn ~ 4600 4000
+NoConn ~ 4600 4100
+NoConn ~ 4600 4200
 Text Notes 9450 1050 0    60   ~ 0
 Kicad-internal stuff, ignore
 $Comp
@@ -115,8 +120,6 @@ Wire Wire Line
 Wire Wire Line
 	4500 3200 4600 3200
 Wire Wire Line
-	4600 3500 4500 3500
-Wire Wire Line
 	7300 4100 7400 4100
 Wire Wire Line
 	7300 3900 7400 3900
@@ -124,10 +127,6 @@ Wire Wire Line
 	7300 3700 7400 3700
 Wire Wire Line
 	7300 3500 7400 3500
-Wire Wire Line
-	4600 4200 4500 4200
-Wire Wire Line
-	4600 4000 4500 4000
 Wire Wire Line
 	1300 5650 1300 5550
 Wire Wire Line
@@ -276,8 +275,6 @@ Wire Wire Line
 Wire Wire Line
 	2200 6850 2200 6750
 Wire Wire Line
-	4600 4100 4500 4100
-Wire Wire Line
 	7300 3400 7400 3400
 Wire Wire Line
 	7300 3600 7400 3600
@@ -285,8 +282,6 @@ Wire Wire Line
 	7300 3800 7400 3800
 Wire Wire Line
 	7300 4000 7400 4000
-Wire Wire Line
-	4600 3400 4500 3400
 Wire Wire Line
 	4600 3100 4500 3100
 Wire Wire Line
@@ -347,11 +342,6 @@ NoConn ~ 7900 3800
 NoConn ~ 7900 3900
 NoConn ~ 7900 4000
 NoConn ~ 7900 4100
-NoConn ~ 4500 3500
-NoConn ~ 4500 3400
-NoConn ~ 4500 4200
-NoConn ~ 4500 4100
-NoConn ~ 4500 4000
 $Comp
 L R_PACK8 RP?
 U 1 1 4FCAB259
@@ -400,7 +390,7 @@ L LED D?
 U 1 1 4FCAAF69
 P 4650 7000
 F 0 "D?" H 4650 7100 50  0000 C CNN
-F 1 "LED" H 4650 6900 50  0000 C CNN
+F 1 "PWRLED" H 4650 6900 50  0000 C CNN
 F 2 "SM0603" H 4650 7000 60  0001 C CNN
 	1    4650 7000
 	-1   0    0    1   
@@ -410,7 +400,7 @@ L LED D?
 U 1 1 4FCAAF48
 P 4650 6600
 F 0 "D?" H 4650 6700 50  0000 C CNN
-F 1 "LED" H 4650 6500 50  0000 C CNN
+F 1 "LED2" H 4650 6500 50  0000 C CNN
 F 2 "SM0603" H 4650 6600 60  0001 C CNN
 	1    4650 6600
 	-1   0    0    1   
@@ -464,7 +454,7 @@ L LED D?
 U 1 1 4FCAAEBC
 P 4650 6200
 F 0 "D?" H 4650 6300 50  0000 C CNN
-F 1 "LED" H 4650 6100 50  0000 C CNN
+F 1 "LED1" H 4650 6100 50  0000 C CNN
 F 2 "SM0603" H 4650 6200 60  0001 C CNN
 	1    4650 6200
 	-1   0    0    1   
@@ -554,7 +544,7 @@ F 1 "+3.3V" H 850 4760 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1850 5050 2    60   ~ 0
-RESET is tied to VCC
+RESET# is tied to VCC
 Text Label 1550 4000 0    60   ~ 0
 WAKEUP
 Text Notes 1900 4300 2    60   ~ 0
@@ -577,10 +567,6 @@ Text Notes 1500 2050 2    60   ~ 0
 USB
 Text Notes 4800 5100 2    60   ~ 0
 RESERVED must be tied to GND
-Text Label 4500 3500 2    60   ~ 0
-CLKOUT
-Text Label 4500 3400 2    60   ~ 0
-IFCLK
 Text Label 7900 4100 0    60   ~ 0
 PB7
 Text Label 7900 4000 0    60   ~ 0
@@ -597,12 +583,6 @@ Text Label 7900 3500 0    60   ~ 0
 PB1
 Text Label 7900 3400 0    60   ~ 0
 PB0
-Text Label 4500 4200 2    60   ~ 0
-CTL2
-Text Label 4500 4100 2    60   ~ 0
-CTL1
-Text Label 4500 4000 2    60   ~ 0
-CTL0
 NoConn ~ 4600 2600
 NoConn ~ 4600 2500
 Text Notes 950  7550 0    60   ~ 0
@@ -1036,6 +1016,7 @@ U 1 1 4FC8F695
 P 1750 2600
 F 0 "X?" H 1750 2750 60  0000 C CNN
 F 1 "24MHz" H 1750 2450 60  0000 C CNN
+F 2 "ABM11" H 1750 2600 60  0001 C CNN
 	1    1750 2600
 	-1   0    0    1   
 $EndComp

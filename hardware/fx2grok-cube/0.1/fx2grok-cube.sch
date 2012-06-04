@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 05 Jun 2012 12:02:10 AM CEST
+EESchema Schematic File Version 2  date Tue 05 Jun 2012 12:08:19 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -45,25 +45,35 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L QUARTZCMS4 X1
-U 1 1 4FCBF38C
-P 1750 2600
-F 0 "X1" H 1750 2400 60  0000 C CNN
-F 1 "QUARTZCMS4" H 1750 2800 60  0000 C CNN
-F 2 "ABM11" H 1750 2600 60  0001 C CNN
-	1    1750 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR01
-U 1 1 4FCBEBA5
-P 850 5350
-F 0 "#PWR01" H 850 5350 30  0001 C CNN
-F 1 "GND" H 850 5280 30  0001 C CNN
-	1    850  5350
-	1    0    0    -1  
-$EndComp
+NoConn ~ 10300 3850
+Text Label 10300 3750 0    60   ~ 0
+PB7
+Text Label 10300 3650 0    60   ~ 0
+PB5
+Text Label 10300 3550 0    60   ~ 0
+PB3
+Text Label 9300 3850 2    60   ~ 0
+GND
+Text Label 9300 3750 2    60   ~ 0
+PB6
+Text Label 9300 3650 2    60   ~ 0
+PB4
+Text Label 10300 3450 0    60   ~ 0
+PB1
+Text Label 9300 3550 2    60   ~ 0
+PB2
+Text Label 9300 3450 2    60   ~ 0
+PB0
+Wire Wire Line
+	10200 3850 10300 3850
+Wire Wire Line
+	10200 3650 10300 3650
+Wire Wire Line
+	10200 3450 10300 3450
+Wire Wire Line
+	9400 3750 9300 3750
+Wire Wire Line
+	9400 3550 9300 3550
 Wire Wire Line
 	850  5250 850  5350
 Wire Wire Line
@@ -332,6 +342,45 @@ Connection ~ 1250 1800
 Wire Wire Line
 	850  4850 850  4650
 Connection ~ 850  4750
+Wire Wire Line
+	9400 3450 9300 3450
+Wire Wire Line
+	9400 3650 9300 3650
+Wire Wire Line
+	9400 3850 9300 3850
+Wire Wire Line
+	10200 3550 10300 3550
+Wire Wire Line
+	10200 3750 10300 3750
+$Comp
+L CONN_5X2 P1
+U 1 1 4FCD30A0
+P 9800 3650
+F 0 "P1" H 9800 3950 60  0000 C CNN
+F 1 "CONN_5X2" V 9800 3650 50  0000 C CNN
+F 2 "CONN-5x2-SMD-127MM" H 9800 3650 60  0001 C CNN
+	1    9800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L QUARTZCMS4 X1
+U 1 1 4FCBF38C
+P 1750 2600
+F 0 "X1" H 1750 2400 60  0000 C CNN
+F 1 "QUARTZCMS4" H 1750 2800 60  0000 C CNN
+F 2 "ABM11" H 1750 2600 60  0001 C CNN
+	1    1750 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 4FCBEBA5
+P 850 5350
+F 0 "#PWR01" H 850 5350 30  0001 C CNN
+F 1 "GND" H 850 5280 30  0001 C CNN
+	1    850  5350
+	1    0    0    -1  
+$EndComp
 $Comp
 L C C16
 U 1 1 4FCBEB98
@@ -367,14 +416,6 @@ F 1 "PWR_FLAG" H 10100 1480 30  0000 C CNN
 	1    10100 1300
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7900 3400
-NoConn ~ 7900 3500
-NoConn ~ 7900 3600
-NoConn ~ 7900 3700
-NoConn ~ 7900 3800
-NoConn ~ 7900 3900
-NoConn ~ 7900 4000
-NoConn ~ 7900 4100
 $Comp
 L R_PACK8 RP1
 U 1 1 4FCAB259

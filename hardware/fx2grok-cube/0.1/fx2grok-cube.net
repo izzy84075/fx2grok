@@ -1,10 +1,10 @@
-# EESchema Netlist Version 1.1 created  Mon 04 Jun 2012 01:31:23 AM CEST
+# EESchema Netlist Version 1.1 created  Mon 04 Jun 2012 11:35:07 PM CEST
 (
  ( /4FCBF38C ABM11  X1 QUARTZCMS4 {Lib=QUARTZCMS4}
   (    1 /XTALIN )
   (    3 /XTALOUT )
  )
- ( /4FCBEB98 SM0603  C16 1uF {Lib=C}
+ ( /4FCBEB98 SM0402  C16 1uF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
@@ -26,39 +26,39 @@
   (   15 ? )
   (   16 ? )
  )
- ( /4FCAAF6B SM0603  R8 2K2 {Lib=R}
+ ( /4FCAAF6B SM0402  R8 2K2 {Lib=R}
   (    1 N-000044 )
   (    2 +3.3V )
  )
- ( /4FCAAF69 SM0603  D3 PWRLED {Lib=LED}
+ ( /4FCAAF69 SM0402  D3 PWRLED {Lib=LED}
   (    1 N-000044 )
   (    2 GND )
  )
- ( /4FCAAF48 SM0603  D2 LED2 {Lib=LED}
+ ( /4FCAAF48 SM0402  D2 LED2 {Lib=LED}
   (    1 N-000043 )
   (    2 GND )
  )
- ( /4FCAAF46 SM0603  R7 2K2 {Lib=R}
+ ( /4FCAAF46 SM0402  R7 2K2 {Lib=R}
   (    1 N-000043 )
   (    2 /PD1 )
  )
- ( /4FCAAEBE SM0603  R6 2K2 {Lib=R}
+ ( /4FCAAEBE SM0402  R6 2K2 {Lib=R}
   (    1 N-000053 )
   (    2 /PD0 )
  )
- ( /4FCAAEBC SM0603  D1 LED1 {Lib=LED}
+ ( /4FCAAEBC SM0402  D1 LED1 {Lib=LED}
   (    1 N-000053 )
   (    2 GND )
  )
- ( /4FCAA86B SM0603  C14 100nF {Lib=C}
+ ( /4FCAA86B SM0402  C14 100nF {Lib=C}
   (    1 N-000045 )
   (    2 GND )
  )
- ( /4FCAA863 SM0603  C15 2.2uF {Lib=C}
+ ( /4FCAA863 SM0402  C15 2.2uF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCAA85F SM0603  C13 1uF {Lib=C}
+ ( /4FCAA85F SM0402  C13 1uF {Lib=C}
   (    1 +5V )
   (    2 GND )
  )
@@ -80,71 +80,71 @@
   (    8 /SHIELD )
   (    9 /SHIELD )
  )
- ( /4FCAA3E6 SM0603  R2 2K7 {Lib=R}
+ ( /4FCAA3E6 SM0402  R2 2K7 {Lib=R}
   (    1 +3.3V )
   (    2 /RESET# )
  )
- ( /4FCA9C86 SM0603  C10 100nF {Lib=C}
+ ( /4FCA9C86 SM0402  C10 100nF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA9C7E SM0603  C7 100nF {Lib=C}
+ ( /4FCA9C7E SM0402  C7 100nF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA9C79 SM0603  C5 2.2uF {Lib=C}
+ ( /4FCA9C79 SM0402  C5 2.2uF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA9C5D SM0603  C2 2.2uF {Lib=C}
+ ( /4FCA9C5D SM0402  C2 2.2uF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA97A0 SM0603  C12 100nF {Lib=C}
+ ( /4FCA97A0 SM0402  C12 100nF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA9799 SM0603  C11 100nF {Lib=C}
+ ( /4FCA9799 SM0402  C11 100nF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA9793 SM0603  C6 100nF {Lib=C}
+ ( /4FCA9793 SM0402  C6 100nF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA9777 SM0603  C4 100nF {Lib=C}
+ ( /4FCA9777 SM0402  C4 100nF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA9724 SM0603  C9 100nF {Lib=C}
+ ( /4FCA9724 SM0402  C9 100nF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA96AB SM0603  C1 100nF {Lib=C}
+ ( /4FCA96AB SM0402  C1 100nF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA95B2 SM0603  R1 100K {Lib=R}
+ ( /4FCA95B2 SM0402  R1 100K {Lib=R}
   (    1 +3.3V )
   (    2 /WAKEUP )
  )
- ( /4FCA93C6 SM0603  R5 2K2 {Lib=R}
+ ( /4FCA93C6 SM0402  R5 2K2 {Lib=R}
   (    1 +3.3V )
   (    2 /SDA )
  )
- ( /4FCA93BD SM0603  R4 2K2 {Lib=R}
+ ( /4FCA93BD SM0402  R4 2K2 {Lib=R}
   (    1 +3.3V )
   (    2 /SCL )
  )
- ( /4FC8F6F8 SM0603  C3 12pF {Lib=C}
+ ( /4FC8F6F8 SM0402  C3 12pF {Lib=C}
   (    1 /XTALIN )
   (    2 GND )
  )
- ( /4FC8F6F5 SM0603  C8 12pF {Lib=C}
+ ( /4FC8F6F5 SM0402  C8 12pF {Lib=C}
   (    1 /XTALOUT )
   (    2 GND )
  )
- ( /4FC8F58A SM0603  R3 0R {Lib=R}
+ ( /4FC8F58A SM0402  R3 0R {Lib=R}
   (    1 /SHIELD )
   (    2 GND )
  )

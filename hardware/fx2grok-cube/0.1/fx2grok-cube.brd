@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Tue 05 Jun 2012 12:54:59 AM CEST
+PCBNEW-BOARD Version 1 date Tue 05 Jun 2012 01:08:01 AM CEST
 
 # Created by Pcbnew(2012-apr-16-27)-stable
 
@@ -9,7 +9,7 @@ Ly 1FFF8001
 EnabledLayers 1FFF8001
 Links 95
 NoConn 95
-Di -2027 -2054 20503 16464
+Di -2007 -2034 20483 16444
 Ndraw 0
 Ntrack 0
 Nzone 0
@@ -35,16 +35,16 @@ InternalUnit 0.000100 INCH
 Layers 2
 Layer[0] Back signal
 Layer[15] Front signal
-TrackWidth 80
-TrackClearence 80
+TrackWidth 60
+TrackClearence 60
 ZoneClearence 200
-TrackMinWidth 80
+TrackMinWidth 60
 DrawSegmWidth 150
 EdgeSegmWidth 150
-ViaSize 394
-ViaDrill 157
-ViaMinSize 394
-ViaMinDrill 157
+ViaSize 197
+ViaDrill 118
+ViaMinSize 197
+ViaMinDrill 118
 MicroViaSize 200
 MicroViaDrill 50
 MicroViasAllowed 0
@@ -57,7 +57,7 @@ TextModSize 600 600
 TextModWidth 120
 PadSize 600 600
 PadDrill 320
-Pad2MaskClearance 59
+Pad2MaskClearance 39
 AuxiliaryAxisOrg 0 0
 PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
 $EndSETUP
@@ -205,10 +205,10 @@ $EndEQUIPOT
 $NCLASS
 Name "Default"
 Desc "This is the default net class."
-Clearance 80
-TrackWidth 80
-ViaDia 394
-ViaDrill 157
+Clearance 60
+TrackWidth 60
+ViaDia 197
+ViaDrill 118
 uViaDia 200
 uViaDrill 50
 AddNet ""

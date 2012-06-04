@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 04 Jun 2012 01:31:03 AM CEST
+EESchema Schematic File Version 2  date Tue 05 Jun 2012 12:02:10 AM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:fx2grok-cube
+LIBS:fx2grok-cube-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "fx2lagrok"
-Date "3 jun 2012"
+Date "4 jun 2012"
 Rev "1"
 Comp "http://www.sigrok.org/Fx2grok"
 Comment1 "Open Hardware, CC-BY-SA 3.0"
@@ -380,7 +381,7 @@ U 1 1 4FCAB259
 P 7600 3750
 F 0 "RP1" H 7600 4200 40  0000 C CNN
 F 1 "R_PACK8" H 7600 4300 40  0000 C CNN
-F 2 "RPACK-8-SMD-0603" H 7600 3750 60  0001 C CNN
+F 2 "RPACK-8-SMD-0402" H 7600 3750 60  0001 C CNN
 	1    7600 3750
 	1    0    0    -1  
 $EndComp

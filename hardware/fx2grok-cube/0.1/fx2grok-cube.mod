@@ -1,9 +1,10 @@
-PCBNEW-LibModule-V1  Mon 04 Jun 2012 01:25:52 AM CEST
+PCBNEW-LibModule-V1  Tue 05 Jun 2012 12:01:11 AM CEST
 # encoding utf-8
 $INDEX
 ABM11
 MICRO-USB-B-SMD
 QFN56
+RPACK-8-SMD-0402
 RPACK-8-SMD-0603
 $EndINDEX
 $MODULE RPACK-8-SMD-0603
@@ -747,4 +748,141 @@ Po -1535 669
 .LocalClearance 118
 $EndPAD
 $EndMODULE  MICRO-USB-B-SMD
+$MODULE RPACK-8-SMD-0402
+Po 0 0 0 15 4FCD2FE0 00000000 ~~
+Li RPACK-8-SMD-0402
+Sc 00000000
+AR 
+Op 0 0 0
+T0 217 4724 600 600 0 120 N V 21 N "RPACK-8-SMD-0402"
+T1 98 -4882 600 600 0 120 N V 21 N "VAL**"
+$PAD
+Sh "1" R 118 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1379 -128
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "2" R 118 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1182 -128
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "3" R 118 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -985 -128
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "4" R 118 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -788 -128
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "5" R 118 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -591 -128
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "6" R 118 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -395 -128
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "7" R 118 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -198 -128
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "8" R 118 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 -128
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "9" R 118 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1 325
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "10" R 118 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -198 325
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "11" R 118 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -395 325
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "12" R 118 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -592 325
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "13" R 118 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -789 325
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "14" R 118 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -985 325
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "15" R 118 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1182 325
+.LocalClearance 20
+$EndPAD
+$PAD
+Sh "16" R 118 256 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1379 325
+.LocalClearance 20
+$EndPAD
+$EndMODULE  RPACK-8-SMD-0402
 $EndLIBRARY

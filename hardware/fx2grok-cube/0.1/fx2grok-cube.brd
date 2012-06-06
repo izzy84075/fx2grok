@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Wed 06 Jun 2012 11:40:48 PM CEST
+PCBNEW-BOARD Version 1 date Thu 07 Jun 2012 12:09:52 AM CEST
 
 # Created by Pcbnew(2012-apr-16-27)-stable
 
@@ -35,16 +35,16 @@ InternalUnit 0.000100 INCH
 Layers 2
 Layer[0] Back signal
 Layer[15] Front signal
-TrackWidth 60
+TrackWidth 50
 TrackClearence 60
 ZoneClearence 200
-TrackMinWidth 60
+TrackMinWidth 50
 DrawSegmWidth 150
 EdgeSegmWidth 150
-ViaSize 197
-ViaDrill 118
-ViaMinSize 197
-ViaMinDrill 118
+ViaSize 177
+ViaDrill 79
+ViaMinSize 177
+ViaMinDrill 79
 MicroViaSize 200
 MicroViaDrill 50
 MicroViasAllowed 0
@@ -186,9 +186,9 @@ $NCLASS
 Name "Default"
 Desc "This is the default net class."
 Clearance 60
-TrackWidth 60
-ViaDia 197
-ViaDrill 118
+TrackWidth 50
+ViaDia 177
+ViaDrill 79
 uViaDia 200
 uViaDrill 50
 AddNet ""

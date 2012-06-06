@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Tue 05 Jun 2012 12:09:06 AM CEST
+# EESchema Netlist Version 1.1 created  Wed 06 Jun 2012 11:39:24 PM CEST
 (
  ( /4FCD30A0 CONN-5x2-SMD-127MM  P1 CONN_5X2 {Lib=CONN_5X2}
   (    1 /PB0 )
@@ -10,25 +10,25 @@
   (    7 /PB6 )
   (    8 /PB7 )
   (    9 GND )
-  (   10 ? )
+  (   10 GND )
  )
  ( /4FCBF38C ABM11  X1 QUARTZCMS4 {Lib=QUARTZCMS4}
   (    1 /XTALIN )
   (    3 /XTALOUT )
  )
- ( /4FCBEB98 SM0402  C16 1uF {Lib=C}
+ ( /4FCBEB98 SM0402  C1 1uF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
  ( /4FCAB259 RPACK-8-SMD-0402  RP1 R_PACK8 {Lib=R_PACK8}
   (    1 N-000051 )
-  (    2 N-000028 )
+  (    2 N-000026 )
   (    3 N-000050 )
-  (    4 N-000020 )
+  (    4 N-000012 )
   (    5 N-000049 )
-  (    6 N-000015 )
+  (    6 N-000014 )
   (    7 N-000048 )
-  (    8 N-000035 )
+  (    8 N-000034 )
   (    9 /PB7 )
   (   10 /PB6 )
   (   11 /PB5 )
@@ -38,39 +38,23 @@
   (   15 /PB1 )
   (   16 /PB0 )
  )
- ( /4FCAAF6B SM0402  R8 2K2 {Lib=R}
-  (    1 N-000043 )
-  (    2 +3.3V )
- )
- ( /4FCAAF69 SM0402  D3 PWRLED {Lib=LED}
-  (    1 N-000043 )
-  (    2 GND )
- )
- ( /4FCAAF48 SM0402  D2 LED2 {Lib=LED}
-  (    1 N-000044 )
-  (    2 GND )
- )
- ( /4FCAAF46 SM0402  R7 2K2 {Lib=R}
-  (    1 N-000044 )
-  (    2 /PD1 )
- )
- ( /4FCAAEBE SM0402  R6 2K2 {Lib=R}
-  (    1 N-000053 )
-  (    2 /PD0 )
+ ( /4FCAAEBE SM0402  R4 2K7 {Lib=R}
+  (    1 N-000045 )
+  (    2 /PA0 )
  )
  ( /4FCAAEBC SM0402  D1 LED1 {Lib=LED}
-  (    1 N-000053 )
+  (    1 N-000045 )
   (    2 GND )
  )
- ( /4FCAA86B SM0402  C14 100nF {Lib=C}
-  (    1 N-000003 )
+ ( /4FCAA86B SM0402  C15 100nF {Lib=C}
+  (    1 N-000043 )
   (    2 GND )
  )
- ( /4FCAA863 SM0402  C15 2.2uF {Lib=C}
+ ( /4FCAA863 SM0402  C16 2.2uF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCAA85F SM0402  C13 1uF {Lib=C}
+ ( /4FCAA85F SM0402  C14 1uF {Lib=C}
   (    1 +5V )
   (    2 GND )
  )
@@ -78,7 +62,7 @@
   (    1 +5V )
   (    2 GND )
   (    3 +5V )
-  (    4 N-000003 )
+  (    4 N-000043 )
   (    5 +3.3V )
  )
  ( /4FCAA5E6 MICRO-USB-B-SMD  U1 MICRO-USB-B-SMD {Lib=MICRO-USB-B-SMD}
@@ -87,52 +71,52 @@
   (    3 /DP )
   (    4 ? )
   (    5 GND )
-  (    6 /SHIELD )
-  (    7 /SHIELD )
-  (    8 /SHIELD )
-  (    9 /SHIELD )
+  (    6 GND )
+  (    7 GND )
+  (    8 GND )
+  (    9 GND )
  )
  ( /4FCAA3E6 SM0402  R2 2K7 {Lib=R}
   (    1 +3.3V )
   (    2 /RESET# )
  )
- ( /4FCA9C86 SM0402  C10 100nF {Lib=C}
+ ( /4FCA9C86 SM0402  C11 100nF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA9C7E SM0402  C7 100nF {Lib=C}
+ ( /4FCA9C7E SM0402  C8 100nF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA9C79 SM0402  C5 2.2uF {Lib=C}
+ ( /4FCA9C79 SM0402  C6 2.2uF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA9C5D SM0402  C2 2.2uF {Lib=C}
+ ( /4FCA9C5D SM0402  C3 2.2uF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA97A0 SM0402  C12 100nF {Lib=C}
+ ( /4FCA97A0 SM0402  C13 100nF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA9799 SM0402  C11 100nF {Lib=C}
+ ( /4FCA9799 SM0402  C12 100nF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA9793 SM0402  C6 100nF {Lib=C}
+ ( /4FCA9793 SM0402  C7 100nF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA9777 SM0402  C4 100nF {Lib=C}
+ ( /4FCA9777 SM0402  C5 100nF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA9724 SM0402  C9 100nF {Lib=C}
+ ( /4FCA9724 SM0402  C10 100nF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
- ( /4FCA96AB SM0402  C1 100nF {Lib=C}
+ ( /4FCA96AB SM0402  C2 100nF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
  )
@@ -140,24 +124,16 @@
   (    1 +3.3V )
   (    2 /WAKEUP )
  )
- ( /4FCA93C6 SM0402  R5 2K2 {Lib=R}
-  (    1 +3.3V )
-  (    2 /SDA )
+ ( /4FCA93BD SM0402  R3 2K7 {Lib=R}
+  (    1 /SCL )
+  (    2 +3.3V )
  )
- ( /4FCA93BD SM0402  R4 2K2 {Lib=R}
-  (    1 +3.3V )
-  (    2 /SCL )
- )
- ( /4FC8F6F8 SM0402  C3 12pF {Lib=C}
+ ( /4FC8F6F8 SM0402  C4 12pF {Lib=C}
   (    1 /XTALIN )
   (    2 GND )
  )
- ( /4FC8F6F5 SM0402  C8 12pF {Lib=C}
+ ( /4FC8F6F5 SM0402  C9 12pF {Lib=C}
   (    1 /XTALOUT )
-  (    2 GND )
- )
- ( /4FC8F58A SM0402  R3 0R {Lib=R}
-  (    1 /SHIELD )
   (    2 GND )
  )
  ( /4FC8F245 QFN56  IC1 CY7C68013A-56 {Lib=CY7C68013A-56}
@@ -176,16 +152,16 @@
   (   13 ? )
   (   14 GND )
   (   15 /SCL )
-  (   16 /SDA )
+  (   16 /SCL )
   (   17 +3.3V )
   (   18 N-000051 )
-  (   19 N-000028 )
+  (   19 N-000026 )
   (   20 N-000050 )
-  (   21 N-000020 )
+  (   21 N-000012 )
   (   22 N-000049 )
-  (   23 N-000015 )
+  (   23 N-000014 )
   (   24 N-000048 )
-  (   25 N-000035 )
+  (   25 N-000034 )
   (   26 GND )
   (   27 +3.3V )
   (   28 GND )
@@ -193,7 +169,7 @@
   (   30 ? )
   (   31 ? )
   (   32 +3.3V )
-  (   33 ? )
+  (   33 /PA0 )
   (   34 ? )
   (   35 ? )
   (   36 ? )
@@ -205,8 +181,8 @@
   (   42 /RESET# )
   (   43 +3.3V )
   (   44 /WAKEUP )
-  (   45 /PD0 )
-  (   46 /PD1 )
+  (   45 ? )
+  (   46 ? )
   (   47 ? )
   (   48 ? )
   (   49 ? )
@@ -221,44 +197,12 @@
 )
 *
 { Allowed footprints by component:
-$component C16
+$component C1
  SM*
  C?
  C1-1
 $endlist
-$component R8
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component D3
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D2
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component R7
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R6
+$component R4
  R?
  SM0603
  SM0805
@@ -274,17 +218,17 @@ $component D1
  LED-1206
  LEDV
 $endlist
-$component C14
- SM*
- C?
- C1-1
-$endlist
 $component C15
  SM*
  C?
  C1-1
 $endlist
-$component C13
+$component C16
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
  SM*
  C?
  C1-1
@@ -296,7 +240,32 @@ $component R2
  R?-*
  SM1206
 $endlist
-$component C10
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
  SM*
  C?
  C1-1
@@ -311,37 +280,12 @@ $component C5
  C?
  C1-1
 $endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
 $component C2
- SM*
- C?
- C1-1
-$endlist
-$component C12
- SM*
- C?
- C1-1
-$endlist
-$component C11
- SM*
- C?
- C1-1
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C9
- SM*
- C?
- C1-1
-$endlist
-$component C1
  SM*
  C?
  C1-1
@@ -353,30 +297,6 @@ $component R1
  R?-*
  SM1206
 $endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component C8
- SM*
- C?
- C1-1
-$endlist
 $component R3
  R?
  SM0603
@@ -384,137 +304,148 @@ $component R3
  R?-*
  SM1206
 $endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "GND" "GND"
- IC1 26
- IC1 14
- C16 2
- IC1 56
+Net 1 "+3.3V" "+3.3V"
+ IC1 27
+ IC1 17
+ IC1 3
+ C1 1
+ R2 1
+ IC1 55
+ IC1 11
+ C5 1
+ C10 1
+ IC1 7
+ C8 1
+ C16 1
+ C6 1
+ C11 1
+ U2 5
+ C3 1
+ C13 1
+ C12 1
+ C7 1
+ R3 2
+ IC1 43
+ C2 1
+ R1 1
+ IC1 32
+Net 2 "GND" "GND"
+ C9 2
+ C4 2
+ P1 10
+ C1 2
  P1 9
- IC1 12
- C10 2
- IC1 41
+ C15 2
+ D1 2
+ U1 5
+ U1 9
+ U1 8
+ U1 7
+ U1 6
+ C14 2
+ C16 2
+ C6 2
+ C8 2
+ C11 2
  IC1 53
+ IC1 12
+ IC1 41
+ IC1 14
  IC1 10
  IC1 6
  IC1 28
- R3 2
- C8 2
- C3 2
- D3 2
- D2 2
- C9 2
- C1 2
  C7 2
- C4 2
- U1 5
- U2 2
- C13 2
- C5 2
- C2 2
  C12 2
- C11 2
- C6 2
- C15 2
- C14 2
- D1 2
-Net 2 "+3.3V" "+3.3V"
- C5 1
- R8 2
- C12 1
- R1 1
- IC1 32
- R4 1
- R5 1
- C9 1
- C1 1
- C15 1
- C7 1
- C11 1
- C6 1
- C2 1
- C10 1
- IC1 27
- R2 1
- IC1 55
- IC1 17
- C4 1
- IC1 3
- IC1 7
- U2 5
- IC1 11
- C16 1
- IC1 43
-Net 3 "" ""
- C14 1
- U2 4
-Net 4 "/RESET#" "RESET#"
+ C13 2
+ C3 2
+ U2 2
+ C2 2
+ C10 2
+ C5 2
+ IC1 56
+ IC1 26
+Net 3 "/RESET#" "RESET#"
  R2 2
  IC1 42
-Net 8 "/PB0" "PB0"
+Net 7 "/PB0" "PB0"
  RP1 16
  P1 1
-Net 9 "/PB2" "PB2"
+Net 8 "/PB2" "PB2"
  P1 3
  RP1 14
-Net 10 "/PB4" "PB4"
+Net 9 "/PB4" "PB4"
  RP1 12
  P1 5
-Net 11 "/PB5" "PB5"
+Net 10 "/PB5" "PB5"
  P1 6
  RP1 11
-Net 12 "/PB7" "PB7"
+Net 11 "/PB7" "PB7"
  P1 8
  RP1 9
-Net 15 "" ""
+Net 12 "" ""
+ IC1 21
+ RP1 4
+Net 13 "/PA0" "PA0"
+ IC1 33
+ R4 2
+Net 14 "" ""
  RP1 6
  IC1 23
-Net 20 "" ""
- RP1 4
- IC1 21
-Net 23 "/XTALIN" "XTALIN"
- C3 1
- X1 1
- IC1 5
-Net 24 "/XTALOUT" "XTALOUT"
- X1 3
- IC1 4
- C8 1
-Net 28 "" ""
- IC1 19
+Net 26 "" ""
  RP1 2
-Net 35 "" ""
+ IC1 19
+Net 34 "" ""
  IC1 25
  RP1 8
-Net 37 "/WAKEUP" "WAKEUP"
+Net 36 "/WAKEUP" "WAKEUP"
  IC1 44
  R1 2
-Net 39 "/DP" "DP"
- U1 3
+Net 38 "/DP" "DP"
  IC1 8
-Net 40 "/DM" "DM"
+ U1 3
+Net 39 "/DM" "DM"
  U1 2
  IC1 9
-Net 41 "/SCL" "SCL"
- R4 2
- IC1 15
-Net 42 "/SDA" "SDA"
- R5 2
+Net 40 "/SCL" "SCL"
+ R3 1
  IC1 16
+ IC1 15
+Net 41 "/XTALOUT" "XTALOUT"
+ C9 1
+ IC1 4
+ X1 3
+Net 42 "/XTALIN" "XTALIN"
+ X1 1
+ C4 1
+ IC1 5
 Net 43 "" ""
- R8 1
- D3 1
-Net 44 "" ""
- D2 1
- R7 1
-Net 46 "/PD0" "PD0"
- R6 2
- IC1 45
-Net 47 "/PD1" "PD1"
- R7 2
- IC1 46
+ U2 4
+ C15 1
+Net 44 "/PB3" "PB3"
+ RP1 13
+ P1 4
+Net 45 "" ""
+ D1 1
+ R4 1
+Net 46 "/PB1" "PB1"
+ RP1 15
+ P1 2
+Net 47 "/PB6" "PB6"
+ RP1 10
+ P1 7
 Net 48 "" ""
  RP1 7
  IC1 24
@@ -522,33 +453,15 @@ Net 49 "" ""
  RP1 5
  IC1 22
 Net 50 "" ""
- RP1 3
  IC1 20
+ RP1 3
 Net 51 "" ""
- RP1 1
  IC1 18
-Net 52 "/PB6" "PB6"
- RP1 10
- P1 7
-Net 53 "" ""
- D1 1
- R6 1
-Net 54 "/PB1" "PB1"
- P1 2
- RP1 15
-Net 55 "/PB3" "PB3"
- P1 4
- RP1 13
-Net 56 "/SHIELD" "SHIELD"
- U1 9
- R3 1
- U1 8
- U1 7
- U1 6
-Net 57 "+5V" "+5V"
- C13 1
- U2 1
- U2 3
+ RP1 1
+Net 52 "+5V" "+5V"
  U1 1
+ U2 3
+ U2 1
+ C14 1
 }
 #End

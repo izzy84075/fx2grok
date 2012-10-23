@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 06 Jun 2012 11:39:31 PM CEST
+EESchema Schematic File Version 2  date Tue 23 Oct 2012 07:00:49 PM CEST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:fx2grok-cube
-LIBS:fx2grok-cube-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
@@ -39,7 +38,7 @@ Sheet 1 1
 Title "fx2grok"
 Date "6 jun 2012"
 Rev "1"
-Comp "http://www.sigrok.org/Fx2grok"
+Comp "http://www.sigrok.org/wiki/Fx2grok"
 Comment1 "Open Hardware, CC-BY-SA 3.0"
 Comment2 ""
 Comment3 ""

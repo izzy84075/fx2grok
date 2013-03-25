@@ -1,4 +1,4 @@
-update=Sun 03 Jun 2012 07:42:27 PM CEST
+update=Mon 25 Mar 2013 06:07:58 PM CET
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -82,12 +82,12 @@ TxtPcbH=600
 TxtModV=600
 TxtModH=600
 TxtModW=120
-VEgarde=100
+VEgarde=39
 DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=
+LastNetListRead=fx2grok-cube.net
 [pcbnew/libraries]
 LibDir=../0.1
 LibName1=sockets

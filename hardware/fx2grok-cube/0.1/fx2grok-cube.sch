@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 23 Oct 2012 07:00:49 PM CEST
+EESchema Schematic File Version 2  date Mon 25 Mar 2013 06:03:51 PM CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "fx2grok"
-Date "6 jun 2012"
+Date "25 mar 2013"
 Rev "1"
 Comp "http://www.sigrok.org/wiki/Fx2grok"
 Comment1 "Open Hardware, CC-BY-SA 3.0"
@@ -44,6 +44,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 7400 4100 0    60   ~ 0
+PB7
+Text Label 7400 4000 0    60   ~ 0
+PB6
+Text Label 7400 3900 0    60   ~ 0
+PB5
+Text Label 7400 3800 0    60   ~ 0
+PB4
+Text Label 7400 3700 0    60   ~ 0
+PB3
+Text Label 7400 3600 0    60   ~ 0
+PB2
+Text Label 7400 3500 0    60   ~ 0
+PB1
+Text Label 7400 3400 0    60   ~ 0
+PB0
 $Comp
 L GND #PWR01
 U 1 1 4FCFCCF8
@@ -85,16 +101,6 @@ Wire Wire Line
 Connection ~ 1350 1800
 Wire Wire Line
 	1350 1700 1350 1800
-Wire Wire Line
-	7800 4100 7900 4100
-Wire Wire Line
-	7900 3900 7800 3900
-Wire Wire Line
-	7800 3800 7900 3800
-Wire Wire Line
-	7800 3600 7900 3600
-Wire Wire Line
-	7800 3400 7900 3400
 Wire Wire Line
 	5450 6200 5550 6200
 Wire Wire Line
@@ -297,12 +303,6 @@ Wire Wire Line
 Wire Wire Line
 	4850 6200 4950 6200
 Wire Wire Line
-	7800 3500 7900 3500
-Wire Wire Line
-	7800 3700 7900 3700
-Wire Wire Line
-	7800 4000 7900 4000
-Wire Wire Line
 	1450 1700 1450 1800
 Connection ~ 1450 1800
 Wire Wire Line
@@ -418,16 +418,6 @@ P 10100 1300
 F 0 "#FLG05" H 10100 1395 30  0001 C CNN
 F 1 "PWR_FLAG" H 10100 1480 30  0000 C CNN
 	1    10100 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R_PACK8 RP1
-U 1 1 4FCAB259
-P 7600 3750
-F 0 "RP1" H 7600 4200 40  0000 C CNN
-F 1 "R_PACK8" H 7600 4300 40  0000 C CNN
-F 2 "RPACK-8-SMD-0402" H 7600 3750 60  0001 C CNN
-	1    7600 3750
 	1    0    0    -1  
 $EndComp
 Text Notes 5850 6200 0    60   ~ 0
@@ -567,22 +557,6 @@ Text Notes 1500 2050 2    60   ~ 0
 USB
 Text Notes 4800 5100 2    60   ~ 0
 RESERVED must be tied to GND
-Text Label 7900 4100 0    60   ~ 0
-PB7
-Text Label 7900 4000 0    60   ~ 0
-PB6
-Text Label 7900 3900 0    60   ~ 0
-PB5
-Text Label 7900 3800 0    60   ~ 0
-PB4
-Text Label 7900 3700 0    60   ~ 0
-PB3
-Text Label 7900 3600 0    60   ~ 0
-PB2
-Text Label 7900 3500 0    60   ~ 0
-PB1
-Text Label 7900 3400 0    60   ~ 0
-PB0
 NoConn ~ 4600 2600
 NoConn ~ 4600 2500
 Text Notes 950  7550 0    60   ~ 0

@@ -1,16 +1,18 @@
-# EESchema Netlist Version 1.1 created  Mon 25 Mar 2013 06:05:44 PM CET
+# EESchema Netlist Version 1.1 created  Tue 26 Mar 2013 05:38:57 PM CET
 (
- ( /4FCD30A0 CONN-5x2-SMD-127MM  P1 CONN_5X2 {Lib=CONN_5X2}
+ ( /5150B984 CONN-5x1-SMD-127MM  P1 CONN_5 {Lib=CONN_5}
   (    1 /PB0 )
-  (    2 /PB1 )
-  (    3 /PB2 )
+  (    2 /PB2 )
+  (    3 /PB4 )
+  (    4 /PB6 )
+  (    5 GND )
+ )
+ ( /5150B98F CONN-5x1-SMD-127MM  P2 CONN_5 {Lib=CONN_5}
+  (    1 GND )
+  (    2 /PB7 )
+  (    3 /PB5 )
   (    4 /PB3 )
-  (    5 /PB4 )
-  (    6 /PB5 )
-  (    7 /PB6 )
-  (    8 /PB7 )
-  (    9 GND )
-  (   10 GND )
+  (    5 /PB1 )
  )
  ( /4FCBF38C ABM11  X1 QUARTZCMS4 {Lib=QUARTZCMS4}
   (    1 /XTALIN )
@@ -301,17 +303,18 @@ $endfootprintlist
 { Pin List by Nets
 Net 1 "GND" "GND"
  C11 2
+ P1 5
  IC1 14
  IC1 53
+ P2 1
  IC1 12
  IC1 41
- C8 2
- U2 2
- C6 2
  IC1 10
+ C8 2
+ C6 2
+ IC1 56
  C9 2
  C4 2
- IC1 56
  IC1 28
  IC1 6
  IC1 26
@@ -319,45 +322,44 @@ Net 1 "GND" "GND"
  C3 2
  C2 2
  C5 2
+ U2 2
  C7 2
  C10 2
  C12 2
- U1 8
- U1 7
  C15 2
- U1 6
  U1 5
- C16 2
- C14 2
+ U1 6
+ U1 7
+ U1 8
+ D1 2
  C1 2
  U1 9
- P1 9
- P1 10
- D1 2
+ C16 2
+ C14 2
 Net 2 "+3.3V" "+3.3V"
  C16 1
- C7 1
  IC1 3
+ C7 1
  C1 1
- IC1 11
- C11 1
- IC1 32
- IC1 7
- IC1 27
- IC1 17
- IC1 55
- C8 1
- R2 1
- R1 1
- R3 2
- U2 5
- IC1 43
  C3 1
+ IC1 55
+ R2 1
+ IC1 27
+ C8 1
  C13 1
+ IC1 43
+ IC1 7
+ IC1 17
+ R3 2
  C6 1
- C10 1
+ IC1 11
+ U2 5
+ IC1 32
+ R1 1
  C2 1
+ C11 1
  C5 1
+ C10 1
  C12 1
 Net 3 "/RESET#" "RESET#"
  IC1 42
@@ -369,56 +371,56 @@ Net 9 "/PA0" "PA0"
  IC1 33
  R4 2
 Net 17 "/DM" "DM"
- U1 2
  IC1 9
-Net 27 "/SCL" "SCL"
- R3 1
- IC1 15
+ U1 2
+Net 21 "/PB1" "PB1"
+ IC1 19
+ P2 5
+Net 28 "/SCL" "SCL"
  IC1 16
-Net 31 "/WAKEUP" "WAKEUP"
- R1 2
+ IC1 15
+ R3 1
+Net 32 "/WAKEUP" "WAKEUP"
  IC1 44
-Net 32 "/DP" "DP"
+ R1 2
+Net 33 "/DP" "DP"
  U1 3
  IC1 8
-Net 33 "/XTALIN" "XTALIN"
- X1 1
+Net 34 "/XTALIN" "XTALIN"
  IC1 5
+ X1 1
  C4 1
-Net 34 "/XTALOUT" "XTALOUT"
+Net 35 "/XTALOUT" "XTALOUT"
+ C9 1
  X1 3
  IC1 4
- C9 1
-Net 35 "/PB0" "PB0"
+Net 36 "/PB5" "PB5"
+ P2 3
+ IC1 23
+Net 37 "/PB0" "PB0"
  IC1 18
  P1 1
-Net 36 "/PB1" "PB1"
+Net 38 "/PB2" "PB2"
  P1 2
- IC1 19
-Net 37 "/PB2" "PB2"
  IC1 20
- P1 3
-Net 38 "/PB3" "PB3"
+Net 39 "/PB3" "PB3"
  IC1 21
- P1 4
-Net 39 "/PB4" "PB4"
+ P2 4
+Net 40 "/PB4" "PB4"
  IC1 22
- P1 5
-Net 40 "/PB5" "PB5"
- IC1 23
- P1 6
+ P1 3
 Net 41 "/PB6" "PB6"
  IC1 24
- P1 7
+ P1 4
 Net 42 "/PB7" "PB7"
- P1 8
  IC1 25
+ P2 2
 Net 43 "" ""
  D1 1
  R4 1
 Net 44 "+5V" "+5V"
- U2 1
  C14 1
+ U2 1
  U2 3
  U1 1
 }

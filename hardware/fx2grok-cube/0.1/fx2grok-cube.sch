@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 25 Mar 2013 06:03:51 PM CET
+EESchema Schematic File Version 2  date Tue 26 Mar 2013 05:47:24 PM CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:fx2grok-cube
+LIBS:fx2grok-cube-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "fx2grok"
-Date "25 mar 2013"
+Date "26 mar 2013"
 Rev "1"
 Comp "http://www.sigrok.org/wiki/Fx2grok"
 Comment1 "Open Hardware, CC-BY-SA 3.0"
@@ -44,6 +45,28 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 8300 3400 0    60   ~ 0
+5x2 1.27mm pin header (5 pins per PCB side)
+$Comp
+L CONN_5 P1
+U 1 1 5150B984
+P 9050 2750
+F 0 "P1" H 9050 3050 50  0000 C CNN
+F 1 "CONN_5" V 9100 2750 50  0000 C CNN
+F 2 "CONN-5x1-SMD-127MM" H 9050 2150 60  0001 C CNN
+	1    9050 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_5 P2
+U 1 1 5150B98F
+P 9550 2750
+F 0 "P2" H 9550 2450 50  0000 C CNN
+F 1 "CONN_5" V 9600 2750 50  0000 C CNN
+F 2 "CONN-5x1-SMD-127MM" H 9400 3350 60  0001 C CNN
+	1    9550 2750
+	-1   0    0    1   
+$EndComp
 Text Label 7400 4100 0    60   ~ 0
 PB7
 Text Label 7400 4000 0    60   ~ 0
@@ -63,37 +86,37 @@ PB0
 $Comp
 L GND #PWR01
 U 1 1 4FCFCCF8
-P 9300 3950
-F 0 "#PWR01" H 9300 3950 30  0001 C CNN
-F 1 "GND" H 9300 3880 30  0001 C CNN
-	1    9300 3950
+P 8550 3050
+F 0 "#PWR01" H 8550 3050 30  0001 C CNN
+F 1 "GND" H 8550 2980 30  0001 C CNN
+	1    8550 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR02
 U 1 1 4FCFCCF5
-P 10300 3950
-F 0 "#PWR02" H 10300 3950 30  0001 C CNN
-F 1 "GND" H 10300 3880 30  0001 C CNN
-	1    10300 3950
+P 10050 3050
+F 0 "#PWR02" H 10050 3050 30  0001 C CNN
+F 1 "GND" H 10050 2980 30  0001 C CNN
+	1    10050 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10300 3950 10300 3850
+	10050 3050 10050 2950
 Wire Wire Line
 	7300 2500 7400 2500
 Wire Wire Line
 	2950 4400 3050 4400
 Wire Wire Line
-	10300 3850 10200 3850
+	10050 2950 9950 2950
 Wire Wire Line
-	10200 3650 10300 3650
+	9950 2750 10050 2750
 Wire Wire Line
-	10200 3450 10300 3450
+	9950 2550 10050 2550
 Wire Wire Line
-	9400 3750 9300 3750
+	8650 2850 8550 2850
 Wire Wire Line
-	9400 3550 9300 3550
+	8650 2650 8550 2650
 Wire Wire Line
 	850  5250 850  5350
 Wire Wire Line
@@ -312,15 +335,15 @@ Wire Wire Line
 	850  4850 850  4650
 Connection ~ 850  4750
 Wire Wire Line
-	9400 3450 9300 3450
+	8650 2550 8550 2550
 Wire Wire Line
-	9400 3650 9300 3650
+	8650 2750 8550 2750
 Wire Wire Line
-	9400 3850 9300 3850
+	8650 2950 8550 2950
 Wire Wire Line
-	10200 3550 10300 3550
+	9950 2650 10050 2650
 Wire Wire Line
-	10200 3750 10300 3750
+	9950 2850 10050 2850
 Wire Wire Line
 	1150 1800 2150 1800
 Wire Wire Line
@@ -333,39 +356,29 @@ Wire Wire Line
 Wire Wire Line
 	2350 4400 2350 4300
 Wire Wire Line
-	9300 3850 9300 3950
+	8550 2950 8550 3050
 Text Label 5550 6200 0    60   ~ 0
 PA0
 Text Label 7400 2500 0    60   ~ 0
 PA0
 NoConn ~ 7300 4300
 NoConn ~ 7300 4400
-Text Label 10300 3750 0    60   ~ 0
+Text Label 10050 2850 0    60   ~ 0
 PB7
-Text Label 10300 3650 0    60   ~ 0
+Text Label 10050 2750 0    60   ~ 0
 PB5
-Text Label 10300 3550 0    60   ~ 0
+Text Label 10050 2650 0    60   ~ 0
 PB3
-Text Label 9300 3750 2    60   ~ 0
+Text Label 8550 2850 2    60   ~ 0
 PB6
-Text Label 9300 3650 2    60   ~ 0
+Text Label 8550 2750 2    60   ~ 0
 PB4
-Text Label 10300 3450 0    60   ~ 0
+Text Label 10050 2550 0    60   ~ 0
 PB1
-Text Label 9300 3550 2    60   ~ 0
+Text Label 8550 2650 2    60   ~ 0
 PB2
-Text Label 9300 3450 2    60   ~ 0
+Text Label 8550 2550 2    60   ~ 0
 PB0
-$Comp
-L CONN_5X2 P1
-U 1 1 4FCD30A0
-P 9800 3650
-F 0 "P1" H 9800 3950 60  0000 C CNN
-F 1 "CONN_5X2" V 9800 3650 50  0000 C CNN
-F 2 "CONN-5x2-SMD-127MM" H 9800 3650 60  0001 C CNN
-	1    9800 3650
-	1    0    0    -1  
-$EndComp
 $Comp
 L QUARTZCMS4 X1
 U 1 1 4FCBF38C

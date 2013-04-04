@@ -1,5 +1,9 @@
-# EESchema Netlist Version 1.1 created  Tue 26 Mar 2013 05:38:57 PM CET
+# EESchema Netlist Version 1.1 created  Tue 26 Mar 2013 06:05:43 PM CET
 (
+ ( /5151D52F SM0402  R5 2K7 {Lib=R}
+  (    1 /SCL )
+  (    2 +3.3V )
+ )
  ( /5150B984 CONN-5x1-SMD-127MM  P1 CONN_5 {Lib=CONN_5}
   (    1 /PB0 )
   (    2 /PB2 )
@@ -23,15 +27,15 @@
   (    2 GND )
  )
  ( /4FCAAEBE SM0402  R4 2K7 {Lib=R}
-  (    1 N-000043 )
+  (    1 N-000044 )
   (    2 /PA0 )
  )
  ( /4FCAAEBC SM0402  D1 LED1 {Lib=LED}
-  (    1 N-000043 )
+  (    1 N-000044 )
   (    2 GND )
  )
  ( /4FCAA86B SM0402  C15 100nF {Lib=C}
-  (    1 N-000006 )
+  (    1 N-000005 )
   (    2 GND )
  )
  ( /4FCAA863 SM0402  C16 2.2uF {Lib=C}
@@ -46,7 +50,7 @@
   (    1 +5V )
   (    2 GND )
   (    3 +5V )
-  (    4 N-000006 )
+  (    4 N-000005 )
   (    5 +3.3V )
  )
  ( /4FCAA5E6 MICRO-USB-B-SMD  U1 MICRO-USB-B-SMD {Lib=MICRO-USB-B-SMD}
@@ -109,7 +113,7 @@
   (    2 /WAKEUP )
  )
  ( /4FCA93BD SM0402  R3 2K7 {Lib=R}
-  (    1 /SCL )
+  (    1 /SDA )
   (    2 +3.3V )
  )
  ( /4FC8F6F8 SM0402  C4 12pF {Lib=C}
@@ -136,7 +140,7 @@
   (   13 ? )
   (   14 GND )
   (   15 /SCL )
-  (   16 /SCL )
+  (   16 /SDA )
   (   17 +3.3V )
   (   18 /PB0 )
   (   19 /PB1 )
@@ -181,6 +185,13 @@
 )
 *
 { Allowed footprints by component:
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
 $component C1
  SM*
  C?
@@ -302,126 +313,129 @@ $endfootprintlist
 }
 { Pin List by Nets
 Net 1 "GND" "GND"
- C11 2
+ C9 2
+ C12 2
+ P2 1
  P1 5
  IC1 14
  IC1 53
- P2 1
  IC1 12
  IC1 41
  IC1 10
- C8 2
- C6 2
  IC1 56
- C9 2
- C4 2
  IC1 28
  IC1 6
  IC1 26
- C13 2
- C3 2
- C2 2
- C5 2
- U2 2
- C7 2
- C10 2
- C12 2
+ C4 2
+ C14 2
+ C1 2
+ C16 2
  C15 2
+ D1 2
+ U1 9
+ U2 2
+ C3 2
+ C8 2
+ C6 2
+ C10 2
+ C13 2
+ C7 2
+ C5 2
+ C11 2
+ U1 8
+ C2 2
  U1 5
  U1 6
  U1 7
- U1 8
- D1 2
- C1 2
- U1 9
- C16 2
- C14 2
 Net 2 "+3.3V" "+3.3V"
- C16 1
- IC1 3
- C7 1
- C1 1
- C3 1
- IC1 55
+ R5 2
  R2 1
- IC1 27
- C8 1
- C13 1
- IC1 43
- IC1 7
- IC1 17
- R3 2
- C6 1
- IC1 11
- U2 5
- IC1 32
- R1 1
- C2 1
  C11 1
- C5 1
- C10 1
+ R1 1
+ C7 1
  C12 1
+ C10 1
+ C5 1
+ C2 1
+ C3 1
+ C16 1
+ C1 1
+ C13 1
+ IC1 27
+ IC1 3
+ IC1 43
+ IC1 32
+ IC1 11
+ C8 1
+ C6 1
+ IC1 17
+ IC1 55
+ R3 2
+ IC1 7
+ U2 5
 Net 3 "/RESET#" "RESET#"
  IC1 42
  R2 2
-Net 6 "" ""
- U2 4
+Net 5 "" ""
  C15 1
+ U2 4
 Net 9 "/PA0" "PA0"
  IC1 33
  R4 2
-Net 17 "/DM" "DM"
- IC1 9
- U1 2
-Net 21 "/PB1" "PB1"
- IC1 19
- P2 5
-Net 28 "/SCL" "SCL"
- IC1 16
- IC1 15
- R3 1
-Net 32 "/WAKEUP" "WAKEUP"
- IC1 44
- R1 2
-Net 33 "/DP" "DP"
- U1 3
- IC1 8
-Net 34 "/XTALIN" "XTALIN"
- IC1 5
- X1 1
- C4 1
-Net 35 "/XTALOUT" "XTALOUT"
- C9 1
- X1 3
- IC1 4
-Net 36 "/PB5" "PB5"
+Net 10 "/PB5" "PB5"
  P2 3
  IC1 23
-Net 37 "/PB0" "PB0"
+Net 15 "/PB3" "PB3"
+ P2 4
+ IC1 21
+Net 22 "/PB1" "PB1"
+ IC1 19
+ P2 5
+Net 29 "/SDA" "SDA"
+ R3 1
+ IC1 16
+Net 32 "/PB7" "PB7"
+ P2 2
+ IC1 25
+Net 33 "/SCL" "SCL"
+ IC1 15
+ R5 1
+Net 35 "/WAKEUP" "WAKEUP"
+ IC1 44
+ R1 2
+Net 36 "/DP" "DP"
+ U1 3
+ IC1 8
+Net 37 "/DM" "DM"
+ IC1 9
+ U1 2
+Net 38 "/XTALIN" "XTALIN"
+ C4 1
+ X1 1
+ IC1 5
+Net 39 "/XTALOUT" "XTALOUT"
+ X1 3
+ IC1 4
+ C9 1
+Net 40 "/PB0" "PB0"
  IC1 18
  P1 1
-Net 38 "/PB2" "PB2"
+Net 41 "/PB2" "PB2"
  P1 2
  IC1 20
-Net 39 "/PB3" "PB3"
- IC1 21
- P2 4
-Net 40 "/PB4" "PB4"
- IC1 22
+Net 42 "/PB4" "PB4"
  P1 3
-Net 41 "/PB6" "PB6"
- IC1 24
+ IC1 22
+Net 43 "/PB6" "PB6"
  P1 4
-Net 42 "/PB7" "PB7"
- IC1 25
- P2 2
-Net 43 "" ""
+ IC1 24
+Net 44 "" ""
  D1 1
  R4 1
-Net 44 "+5V" "+5V"
+Net 45 "+5V" "+5V"
+ U1 1
+ U2 3
  C14 1
  U2 1
- U2 3
- U1 1
 }
 #End

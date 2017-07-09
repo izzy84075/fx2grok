@@ -70,7 +70,7 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=fx2grok-cube
+LibName31=fx2grok-tiny
 [pcbnew]
 version=1
 PadDrlX=320
@@ -87,7 +87,7 @@ DrawLar=150
 EdgeLar=150
 TxtLar=120
 MSegLar=150
-LastNetListRead=fx2grok-cube.net
+LastNetListRead=fx2grok-tiny.net
 [pcbnew/libraries]
 LibDir=../0.1
 LibName1=sockets
@@ -101,4 +101,4 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
-LibName12=fx2grok-cube
+LibName12=fx2grok-tiny

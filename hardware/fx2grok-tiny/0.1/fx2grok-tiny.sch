@@ -28,8 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:fx2grok-cube
-LIBS:fx2grok-cube-cache
+LIBS:fx2grok-tiny
+LIBS:fx2grok-tiny-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

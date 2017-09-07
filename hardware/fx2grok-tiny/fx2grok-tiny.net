@@ -1,6 +1,6 @@
 (export (version D)
   (design
-    (source /home/uwe/code/SIGROK/fx2grok/hardware/fx2grok-tiny/0.1/fx2grok-tiny.sch)
+    (source /home/uwe/code/SIGROK/fx2grok/hardware/fx2grok-tiny/fx2grok-tiny.sch)
     (date "Sun 09 Jul 2017 11:41:00 PM CEST")
     (tool "Eeschema 4.0.5+dfsg1-4")
     (sheet (number 1) (name /) (tstamps /)

@@ -3,7 +3,7 @@
   (general
     (links 85)
     (no_connects 0)
-    (area 67.688459 37.736779 80.713581 50.761901)
+    (area 50.03038 32.773983 87.944962 61.842831)
     (thickness 0.8)
     (drawings 12)
     (tracks 342)
@@ -56,6 +56,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0.0508)
     (aux_axis_origin 0 0)
+    (grid_origin 67.68846 50.7619)
     (visible_elements FFFFFF19)
     (pcbplotparams
       (layerselection 0x010cc_80000001)

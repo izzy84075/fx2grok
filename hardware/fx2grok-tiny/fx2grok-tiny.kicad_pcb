@@ -3,7 +3,7 @@
   (general
     (links 85)
     (no_connects 0)
-    (area 50.03038 32.773983 90.07094 61.842831)
+    (area 67.688459 37.736779 80.713581 50.761901)
     (thickness 0.8)
     (drawings 12)
     (tracks 342)
@@ -80,7 +80,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory fx2grok-tiny-0.1-gerber-files))
   )
 
   (net 0 "")

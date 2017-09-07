@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "fx2grok"
-Date "26 mar 2013"
+Date "2017-09-07"
 Rev "1"
 Comp "http://www.sigrok.org/wiki/Fx2grok"
 Comment1 "Open Hardware, CC-BY-SA 3.0"

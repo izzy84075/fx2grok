@@ -3,7 +3,7 @@
   (general
     (links 85)
     (no_connects 0)
-    (area 67.688459 37.736499 80.713861 50.761901)
+    (area 50.03038 32.773983 88.390762 61.842831)
     (thickness 0.8)
     (drawings 16)
     (tracks 356)
@@ -943,10 +943,10 @@
       (net 19 GND) (clearance 0.29972))
   )
 
-  (module fx2grok-tiny:CONN-5x1-SMD-127MM (layer B.Cu) (tedit 59B1C024) (tstamp 5151CF2A)
+  (module fx2grok-tiny:CONN-5x1-SMD-127MM (layer B.Cu) (tedit 59B1F2D3) (tstamp 5151CF2A)
     (at 79.121 43.307 270)
     (path /59637927)
-    (fp_text reference P2 (at 3.91668 -0.69596 360) (layer B.SilkS)
+    (fp_text reference P2 (at 4.6736 -0.77216 360) (layer B.SilkS)
       (effects (font (size 0.524 0.524) (thickness 0.101)) (justify mirror))
     )
     (fp_text value CONN_01X05 (at -0.0508 8.8011 270) (layer B.SilkS) hide
@@ -964,10 +964,10 @@
       (net 6 /PB1) (clearance 0.0508))
   )
 
-  (module fx2grok-tiny:CONN-5x1-SMD-127MM (layer F.Cu) (tedit 59B1BFC4) (tstamp 4FCD3C8E)
+  (module fx2grok-tiny:CONN-5x1-SMD-127MM (layer F.Cu) (tedit 59B1F317) (tstamp 4FCD3C8E)
     (at 79.121 44.069 90)
     (path /596377A2)
-    (fp_text reference P1 (at -3.15468 0.7366 180) (layer F.SilkS)
+    (fp_text reference P1 (at -3.0226 -1.56464 180) (layer F.SilkS)
       (effects (font (size 0.524 0.524) (thickness 0.101)))
     )
     (fp_text value CONN_01X05 (at -2.83464 -18.0086 90) (layer F.SilkS) hide

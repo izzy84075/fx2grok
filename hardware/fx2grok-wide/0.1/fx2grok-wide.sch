@@ -31,7 +31,23 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:fx2grok-flat-cache
+LIBS:pkl_conn
+LIBS:pkl_cypress
+LIBS:pkl_device
+LIBS:pkl_ftdi
+LIBS:pkl_lattice
+LIBS:pkl_linear
+LIBS:pkl_logos
+LIBS:pkl_maxim
+LIBS:pkl_memory
+LIBS:pkl_misc
+LIBS:pkl_molex
+LIBS:pkl_power
+LIBS:pkl_sensor
+LIBS:pkl_silabs
+LIBS:pkl_tag_connect
+LIBS:pkl_texas
+LIBS:fx2grok-wide-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -133,17 +149,14 @@ NoConn ~ 4200 3200
 NoConn ~ 4200 3300
 NoConn ~ 4200 3900
 NoConn ~ 4200 4000
-NoConn ~ 6900 2400
 NoConn ~ 6900 2500
 NoConn ~ 6900 2600
 NoConn ~ 6900 2700
 NoConn ~ 6900 2800
 NoConn ~ 6900 2900
 NoConn ~ 6900 3000
-Wire Wire Line
-	6900 2300 7400 2300
-Text Label 7000 2300 0    60   ~ 0
-PA0
+Text Label 7050 2300 0    60   ~ 0
+PA1
 Wire Wire Line
 	6900 3200 8400 3200
 Wire Wire Line
@@ -1837,97 +1850,97 @@ PD2
 $Comp
 L pkl_R4_Small R11
 U 1 1 59D4F446
-P 7300 5100
-F 0 "R11" V 7250 5200 50  0000 L CNN
-F 1 "100k" V 7250 5000 50  0000 R CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7300 5100 60  0001 C CNN
-F 3 "" H 7300 5100 60  0000 C CNN
-F 4 "ANY" H 7300 5100 60  0001 C CNN "Source"
-	1    7300 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L pkl_R4_Small R11
-U 2 1 59D4F44D
-P 7400 5100
-F 0 "R11" V 7350 5200 50  0000 L CNN
-F 1 "100k" V 7350 5000 50  0000 R CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7400 5100 60  0001 C CNN
-F 3 "" H 7400 5100 60  0000 C CNN
-F 4 "ANY" H 7400 5100 60  0001 C CNN "Source"
-	2    7400 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L pkl_R4_Small R11
-U 3 1 59D4F454
-P 7500 5100
-F 0 "R11" V 7450 5200 50  0000 L CNN
-F 1 "100k" V 7450 5000 50  0000 R CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7500 5100 60  0001 C CNN
-F 3 "" H 7500 5100 60  0000 C CNN
-F 4 "ANY" H 7500 5100 60  0001 C CNN "Source"
-	3    7500 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L pkl_R4_Small R11
-U 4 1 59D4F45B
 P 7600 5100
 F 0 "R11" V 7550 5200 50  0000 L CNN
 F 1 "100k" V 7550 5000 50  0000 R CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7600 5100 60  0001 C CNN
 F 3 "" H 7600 5100 60  0000 C CNN
 F 4 "ANY" H 7600 5100 60  0001 C CNN "Source"
-	4    7600 5100
+	1    7600 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L pkl_R4_Small R11
+U 2 1 59D4F44D
+P 7500 5100
+F 0 "R11" V 7450 5200 50  0000 L CNN
+F 1 "100k" V 7450 5000 50  0000 R CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7500 5100 60  0001 C CNN
+F 3 "" H 7500 5100 60  0000 C CNN
+F 4 "ANY" H 7500 5100 60  0001 C CNN "Source"
+	2    7500 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L pkl_R4_Small R11
+U 3 1 59D4F454
+P 7400 5100
+F 0 "R11" V 7350 5200 50  0000 L CNN
+F 1 "100k" V 7350 5000 50  0000 R CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7400 5100 60  0001 C CNN
+F 3 "" H 7400 5100 60  0000 C CNN
+F 4 "ANY" H 7400 5100 60  0001 C CNN "Source"
+	3    7400 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L pkl_R4_Small R11
+U 4 1 59D4F45B
+P 7300 5100
+F 0 "R11" V 7250 5200 50  0000 L CNN
+F 1 "100k" V 7250 5000 50  0000 R CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7300 5100 60  0001 C CNN
+F 3 "" H 7300 5100 60  0000 C CNN
+F 4 "ANY" H 7300 5100 60  0001 C CNN "Source"
+	4    7300 5100
 	-1   0    0    -1  
 $EndComp
 $Comp
 L pkl_R4_Small R12
 U 1 1 59D4F462
-P 7700 5100
-F 0 "R12" V 7650 5200 50  0000 L CNN
-F 1 "100k" V 7650 5000 50  0000 R CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7700 5100 60  0001 C CNN
-F 3 "" H 7700 5100 60  0000 C CNN
-F 4 "ANY" H 7700 5100 60  0001 C CNN "Source"
-	1    7700 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L pkl_R4_Small R12
-U 2 1 59D4F469
-P 7800 5100
-F 0 "R12" V 7750 5200 50  0000 L CNN
-F 1 "100k" V 7750 5000 50  0000 R CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7800 5100 60  0001 C CNN
-F 3 "" H 7800 5100 60  0000 C CNN
-F 4 "ANY" H 7800 5100 60  0001 C CNN "Source"
-	2    7800 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L pkl_R4_Small R12
-U 3 1 59D4F470
-P 7900 5100
-F 0 "R12" V 7850 5200 50  0000 L CNN
-F 1 "100k" V 7850 5000 50  0000 R CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7900 5100 60  0001 C CNN
-F 3 "" H 7900 5100 60  0000 C CNN
-F 4 "ANY" H 7900 5100 60  0001 C CNN "Source"
-	3    7900 5100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L pkl_R4_Small R12
-U 4 1 59D4F477
 P 8000 5100
 F 0 "R12" V 7950 5200 50  0000 L CNN
 F 1 "100k" V 7950 5000 50  0000 R CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 8000 5100 60  0001 C CNN
 F 3 "" H 8000 5100 60  0000 C CNN
 F 4 "ANY" H 8000 5100 60  0001 C CNN "Source"
-	4    8000 5100
+	1    8000 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L pkl_R4_Small R12
+U 2 1 59D4F469
+P 7900 5100
+F 0 "R12" V 7850 5200 50  0000 L CNN
+F 1 "100k" V 7850 5000 50  0000 R CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7900 5100 60  0001 C CNN
+F 3 "" H 7900 5100 60  0000 C CNN
+F 4 "ANY" H 7900 5100 60  0001 C CNN "Source"
+	2    7900 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L pkl_R4_Small R12
+U 3 1 59D4F470
+P 7800 5100
+F 0 "R12" V 7750 5200 50  0000 L CNN
+F 1 "100k" V 7750 5000 50  0000 R CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7800 5100 60  0001 C CNN
+F 3 "" H 7800 5100 60  0000 C CNN
+F 4 "ANY" H 7800 5100 60  0001 C CNN "Source"
+	3    7800 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L pkl_R4_Small R12
+U 4 1 59D4F477
+P 7700 5100
+F 0 "R12" V 7650 5200 50  0000 L CNN
+F 1 "100k" V 7650 5000 50  0000 R CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7700 5100 60  0001 C CNN
+F 3 "" H 7700 5100 60  0000 C CNN
+F 4 "ANY" H 7700 5100 60  0001 C CNN "Source"
+	4    7700 5100
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1989,4 +2002,11 @@ Connection ~ 7900 4200
 Wire Wire Line
 	8000 5000 8000 4100
 Connection ~ 8000 4100
+Wire Wire Line
+	7400 2300 7100 2300
+Wire Wire Line
+	7100 2300 7100 2400
+Wire Wire Line
+	7100 2400 6900 2400
+NoConn ~ 6900 2300
 $EndSCHEMATC

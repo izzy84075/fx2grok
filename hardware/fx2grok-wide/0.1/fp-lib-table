@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name fx2grok-tiny)(type KiCad)(uri "C:/Users/ryanb/Git/Personal projects/fx2grok/hardware/fx2grok-tiny/0.1/fx2grok-tiny.pretty")(options "")(descr ""))
+)
